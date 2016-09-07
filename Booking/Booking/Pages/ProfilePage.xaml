@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	Title="Restaurant Booking"
+	x:Class="Booking.Pages.ProfilePage"
+	xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	xmlns:templates="clr-namespace:Booking.Templates"
+	xmlns:commonViews="clr-namespace:Booking.Common"
+	x:Name="page"
+	BackgroundColor="White">
+
+  <ContentPage.Content>
+    <ScrollView>
+
+      <!--GRID WRAPPER-->
+      <Grid Padding="0">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="Auto" />
+          <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!--SOCIAL HEADER-->
+        <Grid Grid.Row="0"
+					HeightRequest="250"
+					BackgroundColor="Black"
+					Padding="0"
+					>
+
+          <!-- BACKGROUND IMAGE -->
+          <Image
+						BackgroundColor="Black"
+						Source="{ StaticResource SocialHeaderBackgroundImage0 }"
+						IsOpaque="false"
+						Opacity="0.75"
+						Aspect="AspectFill"
+						HorizontalOptions="FillAndExpand"
+						VerticalOptions="FillAndExpand"/>
+
+
+          <StackLayout
+            Orientation="Vertical"
+            Spacing="20"
+					>
+
+            <Grid
+              HorizontalOptions="Center"
+              VerticalOptions="Center"
+              TranslationY="25">
+
+              <!-- AVATAR -->
+              <artina:CircleImage
+                x:Name="avatar"
+                Source="{ StaticResource ThemeAvatarSample0Image }"
+                HeightRequest="100"
+                WidthRequest="100"
+							/>
+            </Grid>
+
+            <!-- USER NAME AND DESCRIPTION -->
+            <StackLayout Padding="20"
+              >
+              <Label
+                Text="Skyler Harrisson"
+                TextColor="White"
+                HorizontalOptions="Center"
+                FontSize="18"
+                FontAttributes="Bold" />
+            </StackLayout>
+          </StackLayout>
+
+          <!-- TOOLBAR -->
+          <Grid Margin="0"
+						VerticalOptions="End"
+						Style="{StaticResource ToolbarStyle}"
+						BackgroundColor="{StaticResource TranslucidBlack}"
+						>
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="60*" />
+              <ColumnDefinition Width="40*" />
+            </Grid.ColumnDefinitions>
+
+            <Label Margin="0"
+							Grid.Column="0"
+							HorizontalTextAlignment="Center"
+							VerticalTextAlignment="Center">
+              <Label.FormattedText>
+                <FormattedString>
+                  <FormattedString.Spans>
+                    <Span
+											Text="&#xf008; "
+											FontSize="{StaticResource BaseFontSize}"
+											ForegroundColor="{StaticResource AccentColor}"
+											FontFamily="{x:Static artina:FontAwesome.FontName}" />
+                    <Span
+											Text="Application Video"
+											FontSize="{StaticResource BaseFontSize}"
+											ForegroundColor="White" />
+                  </FormattedString.Spans>
+                </FormattedString>
+              </Label.FormattedText>
+            </Label>
+
+            <Label Grid.Column="1"
+							HorizontalTextAlignment="Center"
+							VerticalTextAlignment="Center" >
+              <Label.FormattedText>
+                <FormattedString>
+                  <FormattedString.Spans>
+                    <Span
+											Text="&#xf041;  "
+											FontSize="{StaticResource BaseFontSize}"
+											ForegroundColor="{StaticResource AccentColor}"
+											FontFamily="{x:Static artina:FontAwesome.FontName}" />
+                    <Span
+											Text="Location"
+											FontSize="{StaticResource BaseFontSize}"
+											ForegroundColor="White" />
+                  </FormattedString.Spans>
+                </FormattedString>
+              </Label.FormattedText>
+            </Label>
+          </Grid>
+        </Grid>
+
+        <Grid Grid.Row="1">
+
+          <!--SOCIAL HEADER-->
+          <StackLayout Padding="0">
+
+            <templates:SocialHeaderStyleTemplate
+              Text="Email"
+              IconText="&#xf003; "/>
+
+            <Label Text="Skyler.Harrisson@gmail.com" Style="{StaticResource StatusLabelStyle}" FontSize="17" Margin="5,0,0,0" />
+
+            <BoxView
+                      Style="{StaticResource SocialHeaderStyleBorderBottomStyle}" />
+
+            <!-- SOCIAL HEADER -->
+            <templates:SocialHeaderStyleTemplate
+              Text="Contact No."
+              IconText="&#xf095; "/>
+
+            <Label Text="+61 3 95137831" Style="{StaticResource StatusLabelStyle}" FontSize="17" Margin="5,0,0,0" />
+
+            <BoxView
+              Style="{StaticResource SocialHeaderStyleBorderBottomStyle}" />
+
+            <!-- SOCIAL HEADER -->
+            <templates:SocialHeaderStyleTemplate
+              Text="Nationality"
+              IconText="&#xf0ac; "/>
+
+            <Label Text="Autralian" Style="{StaticResource StatusLabelStyle}" FontSize="17" Margin="5,0,0,0" />
+
+            <BoxView
+              Style="{StaticResource SocialHeaderStyleBorderBottomStyle}" />
+
+
+            <!-- SOCIAL HEADER -->
+            <templates:SocialHeaderStyleTemplate
+              Text="Education Details"
+              IconText="&#xf19d; "/>
+
+            <Label Text="1. Western Sydney University [UWS] 1995" Style="{StaticResource StatusLabelStyle}" FontSize="17" Margin="5,0,0,0" />
+
+            <BoxView
+              Style="{StaticResource SocialHeaderStyleBorderBottomStyle}" />
+
+            <!-- SOCIAL HEADER -->
+            <templates:SocialHeaderStyleTemplate
+              Text="Hobbies"
+              IconText="&#xf1e3; "/>
+
+            <Label Text="1. Playing soccer" Style="{StaticResource StatusLabelStyle}" FontSize="17" Margin="5,0,0,0" />
+            <Label Text="2. Watching TV Shows" Style="{StaticResource StatusLabelStyle}" FontSize="17" Margin="5,0,0,0" />
+
+            <BoxView
+              Style="{StaticResource SocialHeaderStyleBorderBottomStyle}" />
+
+          </StackLayout>
+        </Grid>
+      </Grid>
+    </ScrollView>
+  </ContentPage.Content>
+</ContentPage>

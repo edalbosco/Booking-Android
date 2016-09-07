@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="Booking.Pages.DetailViewPage"
+	xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	xmlns:templates="clr-namespace:Booking.Templates"
+	xmlns:controls="clr-namespace:Booking.Controls"
+	Title="Booking">
+
+  <ScrollView x:Name="outerScrollView" BackgroundColor="White">
+
+    <Grid x:Name="layeringGrid" RowSpacing="0" VerticalOptions="FillAndExpand">
+      <Grid Padding="0" BackgroundColor="Black" >
+
+        <!-- MAIN IMAGE -->
+        <Image
+					x:Name="img"
+					Source="{ Binding TVShow.Banner }"
+					Aspect="AspectFill"
+					HorizontalOptions="StartAndExpand"
+					VerticalOptions="Start"
+					Opacity=".8"
+				/>
+      </Grid>
+
+      <StackLayout
+				Spacing="0"
+				Padding="0"
+				VerticalOptions="FillAndExpand">
+
+        <StackLayout
+					Padding="0"
+					Spacing="0"
+					VerticalOptions="FillAndExpand">
+
+          <StackLayout
+						Padding="20"
+						x:Name="headers"
+						HeightRequest="260"
+						AnchorX="0">
+
+            <!-- HEADERS -->
+            <Label
+							Text="{ Binding TVShow.Title }"
+							LineBreakMode="WordWrap"
+							VerticalOptions="FillAndExpand"
+							TextColor="White"
+							FontSize="35"
+							FontAttributes="None"
+							VerticalTextAlignment="End"/>
+          </StackLayout>
+
+          <StackLayout
+						Orientation="Horizontal"
+						Padding="20"
+						BackgroundColor="White">
+
+            <StackLayout
+						  Orientation="Vertical"
+              HorizontalOptions="StartAndExpand"
+              Padding="0">
+              <Label
+                Text="{ Binding TVShow.Where }"
+                TextColor="#252525"
+                HorizontalOptions="StartAndExpand" />
+              <Label
+                Text="{ Binding TVShow.When }"
+                TextColor="#8c8c8c"
+                HorizontalOptions="StartAndExpand" />
+            </StackLayout>
+            <Label HorizontalOptions="End">
+              <Label.FormattedText>
+                <FormattedString>
+                  <FormattedString.Spans>
+                    <Span
+											Text="&#xf0c0; "
+											FontSize="{ StaticResource BaseFontSize }"
+											ForegroundColor="{StaticResource AccentColor}"
+											FontFamily="{ x:Static artina:FontAwesome.FontName }" />
+                    <Span
+											Text="77"
+											FontSize="{ StaticResource BaseFontSize }"
+											ForegroundColor="{ StaticResource AccentColor }" />
+                  </FormattedString.Spans>
+                </FormattedString>
+              </Label.FormattedText>
+            </Label>
+
+            <Label HorizontalOptions="End">
+              <Label.FormattedText>
+                <FormattedString>
+                  <FormattedString.Spans>
+                    <Span
+											Text="&#xf004; "
+											FontSize="{ StaticResource BaseFontSize }"
+											ForegroundColor="{StaticResource AccentColor }"
+											FontFamily="{ x:Static artina:FontAwesome.FontName }" />
+                    <Span
+											Text="22"
+											FontSize="{ StaticResource BaseFontSize }"
+											ForegroundColor="{ StaticResource AccentColor }" />
+                  </FormattedString.Spans>
+                </FormattedString>
+              </Label.FormattedText>
+            </Label>
+          </StackLayout>
+
+          <BoxView Style="{ StaticResource Horizontal1ptLineStyle }" />
+
+        </StackLayout>
+
+
+        <!-- BOOKING -->
+        <StackLayout
+					BackgroundColor="#f9f9f9"
+					Padding="20">
+
+          <Label
+						Text="BOOK YOUR TABLE"
+						TextColor="#252525"
+						HorizontalOptions="StartAndExpand"
+						VerticalOptions="Start" />
+        </StackLayout>
+
+        <StackLayout
+					VerticalOptions="FillAndExpand"
+					BackgroundColor="White"
+          Padding="20">
+
+          <Grid HorizontalOptions="Start" Padding="5">
+
+            <Grid.ColumnDefinitions>
+              <ColumnDefinition Width="30*" />
+              <ColumnDefinition Width="70*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+              <RowDefinition/>
+              <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Label Text="Date:" 
+                   VerticalOptions="Center"/>
+            <DatePicker
+                   Grid.Column="1"/>
+            <Label Text="Time:" 
+                   VerticalOptions="Center"
+                   Grid.Row="1"/>
+            <TimePicker
+                   Grid.Row="1"
+                   Grid.Column="1"/>
+          </Grid>
+
+          <StackLayout Padding="20" BackgroundColor="White">
+            <artina:Button
+							Style="{ StaticResource PrimaryActionButtonStyle }"
+							Text="Add Booking"
+							Clicked="OnPrimaryActionButtonClicked"
+							 />
+          </StackLayout>
+
+        </StackLayout>
+
+        <!-- COMMENTS -->
+        <StackLayout
+					BackgroundColor="#f9f9f9"
+					Padding="20">
+
+          <Label
+						BindingContext="{ Binding Comments }"
+						Text="{ Binding Count, StringFormat='{0:F0} COMMENTS' }"
+						TextColor="#252525"
+						HorizontalOptions="StartAndExpand"
+						VerticalOptions="Start" />
+        </StackLayout>
+
+        <StackLayout
+					VerticalOptions="FillAndExpand"
+					BackgroundColor="White">
+
+          <!-- COMMENTS -->
+          <ListView
+						ItemsSource="{ Binding Comments }"
+						SeparatorColor="#77CCCCCC"
+						SeparatorVisibility="Default"
+						RowHeight="180"
+						ItemTapped="OnItemTapped"
+						VerticalOptions="FillAndExpand"
+						>
+
+            <ListView.ItemTemplate>
+              <DataTemplate>
+                <ViewCell>
+
+                  <ViewCell.ContextActions>
+                    <MenuItem Clicked="OnMore"
+											 Text="More" />
+                    <MenuItem Clicked="OnDelete"
+											 Text="Delete" IsDestructive="True" />
+                  </ViewCell.ContextActions>
+
+                  <templates:CommentItemTemplate />
+
+                </ViewCell>
+              </DataTemplate>
+            </ListView.ItemTemplate>
+          </ListView>
+
+          <!-- BUTTON -->
+          <StackLayout Padding="20" BackgroundColor="White">
+            <artina:Button
+							Style="{ StaticResource PrimaryActionButtonStyle }"
+							Text="Add Comment"
+							Clicked="OnPrimaryActionButtonClicked"
+							 />
+          </StackLayout>
+        </StackLayout>
+
+
+      </StackLayout>
+    </Grid>
+
+  </ScrollView>
+
+</ContentPage>

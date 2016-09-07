@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="Booking.Templates.TVShowItemTemplate"
+	xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared">
+
+  <ContentView.Resources>
+    <ResourceDictionary>
+
+      <artina:BooleanToObjectConverter x:Key="isStaredIconConverter" x:TypeArguments="x:String"
+			TrueValue="&#xf005;" FalseValue="&#xf006;"/>
+
+      <artina:BooleanToObjectConverter x:Key="isReadConverter" x:TypeArguments="FontAttributes">
+        <artina:BooleanToObjectConverter.TrueValue>
+          <FontAttributes>None</FontAttributes>
+        </artina:BooleanToObjectConverter.TrueValue>
+        <artina:BooleanToObjectConverter.FalseValue>
+          <FontAttributes>Bold</FontAttributes>
+        </artina:BooleanToObjectConverter.FalseValue>
+      </artina:BooleanToObjectConverter>
+    </ResourceDictionary>
+  </ContentView.Resources>
+
+  <StackLayout
+		Spacing="0"
+		Orientation="Horizontal"
+		Padding="5, 0, 5, 0"
+		HorizontalOptions="FillAndExpand" >
+
+    <Image Source="{Binding Poster}"
+			Aspect ="AspectFill"
+			HorizontalOptions = "Center"
+			VerticalOptions = "Start"
+			/>
+
+    <StackLayout
+			Padding="10, 0, 0, 0" Spacing="0"
+			Orientation="Horizontal"
+			HorizontalOptions="FillAndExpand">
+
+
+      <StackLayout HorizontalOptions="FillAndExpand" Spacing="0" Padding="10">
+        <StackLayout Orientation="Horizontal">
+          <Label
+            Text="{Binding Title}"
+            HorizontalOptions="Fill"
+            VerticalOptions="EndAndExpand"
+            TextColor="#FF212121"
+            
+						/>
+
+
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" >
+          <Label
+        Text="{Binding Where}"
+        FontSize ="12"
+        HorizontalTextAlignment="End"
+        HorizontalOptions="End"
+        VerticalOptions="Center"
+							/>
+        </StackLayout>
+      </StackLayout>
+
+    </StackLayout>
+    <Label Style="{StaticResource FontIcon}" 
+           Text="&#xf105;" HorizontalOptions="End" 
+           VerticalOptions="Center" 
+           FontSize="24"/>
+  </StackLayout>
+</ContentView>
