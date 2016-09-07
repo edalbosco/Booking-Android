@@ -4131,56 +4131,29 @@ namespace Booking.Droid
 			// aapt resource value: 0x7f0200b4
 			public const int mr_ic_play_light = 2130837684;
 			
-			// aapt resource value: 0x7f0200c5
-			public const int notification_template_icon_bg = 2130837701;
+			// aapt resource value: 0x7f0200bc
+			public const int notification_template_icon_bg = 2130837692;
 			
 			// aapt resource value: 0x7f0200b5
 			public const int plus = 2130837685;
 			
 			// aapt resource value: 0x7f0200b6
-			public const int social_album_1 = 2130837686;
+			public const int social_header_bg_0 = 2130837686;
 			
 			// aapt resource value: 0x7f0200b7
-			public const int social_album_2 = 2130837687;
+			public const int splash = 2130837687;
 			
 			// aapt resource value: 0x7f0200b8
-			public const int social_album_3 = 2130837688;
+			public const int table = 2130837688;
 			
 			// aapt resource value: 0x7f0200b9
-			public const int social_album_4 = 2130837689;
+			public const int table_reserved = 2130837689;
 			
 			// aapt resource value: 0x7f0200ba
-			public const int social_album_5 = 2130837690;
+			public const int tv = 2130837690;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int social_album_6 = 2130837691;
-			
-			// aapt resource value: 0x7f0200bc
-			public const int social_album_7 = 2130837692;
-			
-			// aapt resource value: 0x7f0200bd
-			public const int social_album_8 = 2130837693;
-			
-			// aapt resource value: 0x7f0200be
-			public const int social_album_9 = 2130837694;
-			
-			// aapt resource value: 0x7f0200bf
-			public const int social_header_bg_0 = 2130837695;
-			
-			// aapt resource value: 0x7f0200c0
-			public const int splash = 2130837696;
-			
-			// aapt resource value: 0x7f0200c1
-			public const int table = 2130837697;
-			
-			// aapt resource value: 0x7f0200c2
-			public const int table_reserved = 2130837698;
-			
-			// aapt resource value: 0x7f0200c3
-			public const int tv = 2130837699;
-			
-			// aapt resource value: 0x7f0200c4
-			public const int user_profile_0 = 2130837700;
+			public const int user_profile_0 = 2130837691;
 			
 			static Drawable()
 			{
