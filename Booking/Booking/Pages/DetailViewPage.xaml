@@ -5,7 +5,6 @@
 	x:Class="Booking.Pages.DetailViewPage"
 	xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
 	xmlns:templates="clr-namespace:Booking.Templates"
-	xmlns:controls="clr-namespace:Booking.Controls"
 	Title="Booking">
 
   <ScrollView x:Name="outerScrollView" BackgroundColor="White">
@@ -16,7 +15,7 @@
         <!-- MAIN IMAGE -->
         <Image
 					x:Name="img"
-					Source="{ Binding TVShow.Banner }"
+					Source="{ Binding Restaurant.Banner }"
 					Aspect="AspectFill"
 					HorizontalOptions="StartAndExpand"
 					VerticalOptions="Start"
@@ -42,7 +41,7 @@
 
             <!-- HEADERS -->
             <Label
-							Text="{ Binding TVShow.Title }"
+							Text="{ Binding Restaurant.Title }"
 							LineBreakMode="WordWrap"
 							VerticalOptions="FillAndExpand"
 							TextColor="White"
@@ -61,11 +60,11 @@
               HorizontalOptions="StartAndExpand"
               Padding="0">
               <Label
-                Text="{ Binding TVShow.Where }"
+                Text="{ Binding Restaurant.Where }"
                 TextColor="#252525"
                 HorizontalOptions="StartAndExpand" />
               <Label
-                Text="{ Binding TVShow.When }"
+                Text="{ Binding Restaurant.When }"
                 TextColor="#8c8c8c"
                 HorizontalOptions="StartAndExpand" />
             </StackLayout>
@@ -138,18 +137,35 @@
             <Grid.RowDefinitions>
               <RowDefinition/>
               <RowDefinition/>
+              <RowDefinition/>
             </Grid.RowDefinitions>
 
-            <Label Text="Date:" 
+            <Label Text="Date:"
                    VerticalOptions="Center"/>
             <DatePicker
                    Grid.Column="1"/>
-            <Label Text="Time:" 
+            <Label Text="Time:"
                    VerticalOptions="Center"
                    Grid.Row="1"/>
             <TimePicker
                    Grid.Row="1"
                    Grid.Column="1"/>
+            <Label Text="Seats:"
+                   VerticalOptions="Center"
+                   Grid.Row="2"/>
+            <StackLayout
+                   Grid.Row="2"
+                   Grid.Column="1">
+              <Label Text="{Binding Seats}"
+                     HorizontalOptions="Center"/>
+              <Slider
+                     x:Name="SeatSlide"
+                     Value="2.0"
+                     Scale="1"
+                     Maximum="20.0"
+                     ValueChanged="SlideChanged"
+                   />
+            </StackLayout>
           </Grid>
 
           <StackLayout Padding="20" BackgroundColor="White">

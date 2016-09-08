@@ -207,7 +207,63 @@ namespace Booking.Models
                 true
             )
         };
-        
+
+        public static List<Restaurant> Tables = new List<Restaurant> {
+            new Restaurant(
+                "table.png",
+                "article_image_0_ban.jpg",
+                "Table 1",
+                "",
+                "11:30–22:00",
+                true
+            ),
+
+            new Restaurant(
+                "table_reserved.png",
+                "article_image_0_ban.jpg",
+                "Table 2",
+                "2 people",
+                "11:30–22:00",
+                true
+            ),
+
+            new Restaurant(
+                "table.png",
+                "article_image_0_ban.jpg",
+                "Table 3",
+                "",
+                "11:30–22:00",
+                true
+            ),
+
+            new Restaurant(
+                "table.png",
+                "article_image_0_ban.jpg",
+                "Table 4",
+                "",
+                "11:30–22:00",
+                true
+            ),
+
+            new Restaurant(
+                "table_reserved.png",
+                "article_image_0_ban.jpg",
+                "Table 5",
+                "4 people",
+                "11:30–22:00",
+                true
+            ),
+
+            new Restaurant(
+                "table_reserved.png",
+                "article_image_0_ban.jpg",
+                "Table 6",
+                "3 people",
+                "11:30–22:00",
+                true
+            )
+        };
+
         public static List<Message> Memos = new List<Message> {
             new Message(
                 Friends[5],

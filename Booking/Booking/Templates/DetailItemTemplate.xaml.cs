@@ -4,9 +4,9 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 namespace Booking.Templates
 {
-	public partial class TVShowItemTemplate : ContentView
+	public partial class DetailItemTemplate : ContentView
 	{
-		public TVShowItemTemplate()
+		public DetailItemTemplate()
 		{
 			InitializeComponent ();
 		}

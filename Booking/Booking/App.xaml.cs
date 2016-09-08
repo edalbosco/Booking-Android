@@ -20,6 +20,7 @@ namespace Booking
 
             Current = this;
             MainPage = new Booking.Pages.RootPage(true);
+            //MainPage = new Booking.Pages.LoginPage();
         }
 
         protected override void OnStart()

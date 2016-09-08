@@ -2,7 +2,7 @@
 <ContentView
 	xmlns="http://xamarin.com/schemas/2014/forms"
 	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-	x:Class="Booking.Templates.TVShowItemTemplate"
+	x:Class="Booking.Templates.DetailItemTemplate"
 	xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared">
 
   <ContentView.Resources>

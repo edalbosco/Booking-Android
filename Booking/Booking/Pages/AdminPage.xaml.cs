@@ -10,13 +10,13 @@ using Xamarin.Forms;
 
 namespace Booking.Pages
 {
-    public partial class MainPage : ContentPage
+    public partial class AdminPage : ContentPage
     {
 
         ObservableCollection<ImageSource> _images;
         int idx;
 
-        public MainPage()
+        public AdminPage()
         {
             InitializeComponent();
 
@@ -28,7 +28,7 @@ namespace Booking.Pages
         {
             get
             {
-                return SampleData.Booking;
+                return SampleData.Tables;
             }
         }
 

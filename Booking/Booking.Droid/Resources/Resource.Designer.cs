@@ -26,1823 +26,6 @@ namespace Booking.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::FAB.Droid.Resource.Animation.abc_fade_in = global::Booking.Droid.Resource.Animation.abc_fade_in;
-			global::FAB.Droid.Resource.Animation.abc_fade_out = global::Booking.Droid.Resource.Animation.abc_fade_out;
-			global::FAB.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::Booking.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::FAB.Droid.Resource.Animation.abc_popup_enter = global::Booking.Droid.Resource.Animation.abc_popup_enter;
-			global::FAB.Droid.Resource.Animation.abc_popup_exit = global::Booking.Droid.Resource.Animation.abc_popup_exit;
-			global::FAB.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Booking.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::FAB.Droid.Resource.Animation.abc_slide_in_bottom = global::Booking.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::FAB.Droid.Resource.Animation.abc_slide_in_top = global::Booking.Droid.Resource.Animation.abc_slide_in_top;
-			global::FAB.Droid.Resource.Animation.abc_slide_out_bottom = global::Booking.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::FAB.Droid.Resource.Animation.abc_slide_out_top = global::Booking.Droid.Resource.Animation.abc_slide_out_top;
-			global::FAB.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::Booking.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::FAB.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::Booking.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::FAB.Droid.Resource.Animation.design_fab_in = global::Booking.Droid.Resource.Animation.design_fab_in;
-			global::FAB.Droid.Resource.Animation.design_fab_out = global::Booking.Droid.Resource.Animation.design_fab_out;
-			global::FAB.Droid.Resource.Animation.design_snackbar_in = global::Booking.Droid.Resource.Animation.design_snackbar_in;
-			global::FAB.Droid.Resource.Animation.design_snackbar_out = global::Booking.Droid.Resource.Animation.design_snackbar_out;
-			global::FAB.Droid.Resource.Attribute.MediaRouteControllerWindowBackground = global::Booking.Droid.Resource.Attribute.MediaRouteControllerWindowBackground;
-			global::FAB.Droid.Resource.Attribute.actionBarDivider = global::Booking.Droid.Resource.Attribute.actionBarDivider;
-			global::FAB.Droid.Resource.Attribute.actionBarItemBackground = global::Booking.Droid.Resource.Attribute.actionBarItemBackground;
-			global::FAB.Droid.Resource.Attribute.actionBarPopupTheme = global::Booking.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::FAB.Droid.Resource.Attribute.actionBarSize = global::Booking.Droid.Resource.Attribute.actionBarSize;
-			global::FAB.Droid.Resource.Attribute.actionBarSplitStyle = global::Booking.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::FAB.Droid.Resource.Attribute.actionBarStyle = global::Booking.Droid.Resource.Attribute.actionBarStyle;
-			global::FAB.Droid.Resource.Attribute.actionBarTabBarStyle = global::Booking.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::FAB.Droid.Resource.Attribute.actionBarTabStyle = global::Booking.Droid.Resource.Attribute.actionBarTabStyle;
-			global::FAB.Droid.Resource.Attribute.actionBarTabTextStyle = global::Booking.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::FAB.Droid.Resource.Attribute.actionBarTheme = global::Booking.Droid.Resource.Attribute.actionBarTheme;
-			global::FAB.Droid.Resource.Attribute.actionBarWidgetTheme = global::Booking.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::FAB.Droid.Resource.Attribute.actionButtonStyle = global::Booking.Droid.Resource.Attribute.actionButtonStyle;
-			global::FAB.Droid.Resource.Attribute.actionDropDownStyle = global::Booking.Droid.Resource.Attribute.actionDropDownStyle;
-			global::FAB.Droid.Resource.Attribute.actionLayout = global::Booking.Droid.Resource.Attribute.actionLayout;
-			global::FAB.Droid.Resource.Attribute.actionMenuTextAppearance = global::Booking.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::FAB.Droid.Resource.Attribute.actionMenuTextColor = global::Booking.Droid.Resource.Attribute.actionMenuTextColor;
-			global::FAB.Droid.Resource.Attribute.actionModeBackground = global::Booking.Droid.Resource.Attribute.actionModeBackground;
-			global::FAB.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::Booking.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::FAB.Droid.Resource.Attribute.actionModeCloseDrawable = global::Booking.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::FAB.Droid.Resource.Attribute.actionModeCopyDrawable = global::Booking.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::FAB.Droid.Resource.Attribute.actionModeCutDrawable = global::Booking.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::FAB.Droid.Resource.Attribute.actionModeFindDrawable = global::Booking.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::FAB.Droid.Resource.Attribute.actionModePasteDrawable = global::Booking.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::FAB.Droid.Resource.Attribute.actionModePopupWindowStyle = global::Booking.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::FAB.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::Booking.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::FAB.Droid.Resource.Attribute.actionModeShareDrawable = global::Booking.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::FAB.Droid.Resource.Attribute.actionModeSplitBackground = global::Booking.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::FAB.Droid.Resource.Attribute.actionModeStyle = global::Booking.Droid.Resource.Attribute.actionModeStyle;
-			global::FAB.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::Booking.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::FAB.Droid.Resource.Attribute.actionOverflowButtonStyle = global::Booking.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::FAB.Droid.Resource.Attribute.actionOverflowMenuStyle = global::Booking.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::FAB.Droid.Resource.Attribute.actionProviderClass = global::Booking.Droid.Resource.Attribute.actionProviderClass;
-			global::FAB.Droid.Resource.Attribute.actionViewClass = global::Booking.Droid.Resource.Attribute.actionViewClass;
-			global::FAB.Droid.Resource.Attribute.activityChooserViewStyle = global::Booking.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::FAB.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::Booking.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::FAB.Droid.Resource.Attribute.alertDialogCenterButtons = global::Booking.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::FAB.Droid.Resource.Attribute.alertDialogStyle = global::Booking.Droid.Resource.Attribute.alertDialogStyle;
-			global::FAB.Droid.Resource.Attribute.alertDialogTheme = global::Booking.Droid.Resource.Attribute.alertDialogTheme;
-			global::FAB.Droid.Resource.Attribute.allowStacking = global::Booking.Droid.Resource.Attribute.allowStacking;
-			global::FAB.Droid.Resource.Attribute.arrowHeadLength = global::Booking.Droid.Resource.Attribute.arrowHeadLength;
-			global::FAB.Droid.Resource.Attribute.arrowShaftLength = global::Booking.Droid.Resource.Attribute.arrowShaftLength;
-			global::FAB.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::Booking.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::FAB.Droid.Resource.Attribute.background = global::Booking.Droid.Resource.Attribute.background;
-			global::FAB.Droid.Resource.Attribute.backgroundSplit = global::Booking.Droid.Resource.Attribute.backgroundSplit;
-			global::FAB.Droid.Resource.Attribute.backgroundStacked = global::Booking.Droid.Resource.Attribute.backgroundStacked;
-			global::FAB.Droid.Resource.Attribute.backgroundTint = global::Booking.Droid.Resource.Attribute.backgroundTint;
-			global::FAB.Droid.Resource.Attribute.backgroundTintMode = global::Booking.Droid.Resource.Attribute.backgroundTintMode;
-			global::FAB.Droid.Resource.Attribute.barLength = global::Booking.Droid.Resource.Attribute.barLength;
-			global::FAB.Droid.Resource.Attribute.behavior_hideable = global::Booking.Droid.Resource.Attribute.behavior_hideable;
-			global::FAB.Droid.Resource.Attribute.behavior_overlapTop = global::Booking.Droid.Resource.Attribute.behavior_overlapTop;
-			global::FAB.Droid.Resource.Attribute.behavior_peekHeight = global::Booking.Droid.Resource.Attribute.behavior_peekHeight;
-			global::FAB.Droid.Resource.Attribute.borderWidth = global::Booking.Droid.Resource.Attribute.borderWidth;
-			global::FAB.Droid.Resource.Attribute.borderlessButtonStyle = global::Booking.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::FAB.Droid.Resource.Attribute.bottomSheetDialogTheme = global::Booking.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::FAB.Droid.Resource.Attribute.bottomSheetStyle = global::Booking.Droid.Resource.Attribute.bottomSheetStyle;
-			global::FAB.Droid.Resource.Attribute.buttonBarButtonStyle = global::Booking.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::FAB.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::Booking.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::FAB.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::Booking.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::FAB.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::Booking.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::FAB.Droid.Resource.Attribute.buttonBarStyle = global::Booking.Droid.Resource.Attribute.buttonBarStyle;
-			global::FAB.Droid.Resource.Attribute.buttonPanelSideLayout = global::Booking.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::FAB.Droid.Resource.Attribute.buttonStyle = global::Booking.Droid.Resource.Attribute.buttonStyle;
-			global::FAB.Droid.Resource.Attribute.buttonStyleSmall = global::Booking.Droid.Resource.Attribute.buttonStyleSmall;
-			global::FAB.Droid.Resource.Attribute.buttonTint = global::Booking.Droid.Resource.Attribute.buttonTint;
-			global::FAB.Droid.Resource.Attribute.buttonTintMode = global::Booking.Droid.Resource.Attribute.buttonTintMode;
-			global::FAB.Droid.Resource.Attribute.cardBackgroundColor = global::Booking.Droid.Resource.Attribute.cardBackgroundColor;
-			global::FAB.Droid.Resource.Attribute.cardCornerRadius = global::Booking.Droid.Resource.Attribute.cardCornerRadius;
-			global::FAB.Droid.Resource.Attribute.cardElevation = global::Booking.Droid.Resource.Attribute.cardElevation;
-			global::FAB.Droid.Resource.Attribute.cardMaxElevation = global::Booking.Droid.Resource.Attribute.cardMaxElevation;
-			global::FAB.Droid.Resource.Attribute.cardPreventCornerOverlap = global::Booking.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::FAB.Droid.Resource.Attribute.cardUseCompatPadding = global::Booking.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::FAB.Droid.Resource.Attribute.checkboxStyle = global::Booking.Droid.Resource.Attribute.checkboxStyle;
-			global::FAB.Droid.Resource.Attribute.checkedTextViewStyle = global::Booking.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::FAB.Droid.Resource.Attribute.closeIcon = global::Booking.Droid.Resource.Attribute.closeIcon;
-			global::FAB.Droid.Resource.Attribute.closeItemLayout = global::Booking.Droid.Resource.Attribute.closeItemLayout;
-			global::FAB.Droid.Resource.Attribute.collapseContentDescription = global::Booking.Droid.Resource.Attribute.collapseContentDescription;
-			global::FAB.Droid.Resource.Attribute.collapseIcon = global::Booking.Droid.Resource.Attribute.collapseIcon;
-			global::FAB.Droid.Resource.Attribute.collapsedTitleGravity = global::Booking.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::FAB.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::Booking.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::FAB.Droid.Resource.Attribute.color = global::Booking.Droid.Resource.Attribute.color;
-			global::FAB.Droid.Resource.Attribute.colorAccent = global::Booking.Droid.Resource.Attribute.colorAccent;
-			global::FAB.Droid.Resource.Attribute.colorButtonNormal = global::Booking.Droid.Resource.Attribute.colorButtonNormal;
-			global::FAB.Droid.Resource.Attribute.colorControlActivated = global::Booking.Droid.Resource.Attribute.colorControlActivated;
-			global::FAB.Droid.Resource.Attribute.colorControlHighlight = global::Booking.Droid.Resource.Attribute.colorControlHighlight;
-			global::FAB.Droid.Resource.Attribute.colorControlNormal = global::Booking.Droid.Resource.Attribute.colorControlNormal;
-			global::FAB.Droid.Resource.Attribute.colorPrimary = global::Booking.Droid.Resource.Attribute.colorPrimary;
-			global::FAB.Droid.Resource.Attribute.colorPrimaryDark = global::Booking.Droid.Resource.Attribute.colorPrimaryDark;
-			global::FAB.Droid.Resource.Attribute.colorSwitchThumbNormal = global::Booking.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::FAB.Droid.Resource.Attribute.commitIcon = global::Booking.Droid.Resource.Attribute.commitIcon;
-			global::FAB.Droid.Resource.Attribute.contentInsetEnd = global::Booking.Droid.Resource.Attribute.contentInsetEnd;
-			global::FAB.Droid.Resource.Attribute.contentInsetLeft = global::Booking.Droid.Resource.Attribute.contentInsetLeft;
-			global::FAB.Droid.Resource.Attribute.contentInsetRight = global::Booking.Droid.Resource.Attribute.contentInsetRight;
-			global::FAB.Droid.Resource.Attribute.contentInsetStart = global::Booking.Droid.Resource.Attribute.contentInsetStart;
-			global::FAB.Droid.Resource.Attribute.contentPadding = global::Booking.Droid.Resource.Attribute.contentPadding;
-			global::FAB.Droid.Resource.Attribute.contentPaddingBottom = global::Booking.Droid.Resource.Attribute.contentPaddingBottom;
-			global::FAB.Droid.Resource.Attribute.contentPaddingLeft = global::Booking.Droid.Resource.Attribute.contentPaddingLeft;
-			global::FAB.Droid.Resource.Attribute.contentPaddingRight = global::Booking.Droid.Resource.Attribute.contentPaddingRight;
-			global::FAB.Droid.Resource.Attribute.contentPaddingTop = global::Booking.Droid.Resource.Attribute.contentPaddingTop;
-			global::FAB.Droid.Resource.Attribute.contentScrim = global::Booking.Droid.Resource.Attribute.contentScrim;
-			global::FAB.Droid.Resource.Attribute.controlBackground = global::Booking.Droid.Resource.Attribute.controlBackground;
-			global::FAB.Droid.Resource.Attribute.counterEnabled = global::Booking.Droid.Resource.Attribute.counterEnabled;
-			global::FAB.Droid.Resource.Attribute.counterMaxLength = global::Booking.Droid.Resource.Attribute.counterMaxLength;
-			global::FAB.Droid.Resource.Attribute.counterOverflowTextAppearance = global::Booking.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::FAB.Droid.Resource.Attribute.counterTextAppearance = global::Booking.Droid.Resource.Attribute.counterTextAppearance;
-			global::FAB.Droid.Resource.Attribute.customNavigationLayout = global::Booking.Droid.Resource.Attribute.customNavigationLayout;
-			global::FAB.Droid.Resource.Attribute.defaultQueryHint = global::Booking.Droid.Resource.Attribute.defaultQueryHint;
-			global::FAB.Droid.Resource.Attribute.dialogPreferredPadding = global::Booking.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::FAB.Droid.Resource.Attribute.dialogTheme = global::Booking.Droid.Resource.Attribute.dialogTheme;
-			global::FAB.Droid.Resource.Attribute.displayOptions = global::Booking.Droid.Resource.Attribute.displayOptions;
-			global::FAB.Droid.Resource.Attribute.divider = global::Booking.Droid.Resource.Attribute.divider;
-			global::FAB.Droid.Resource.Attribute.dividerHorizontal = global::Booking.Droid.Resource.Attribute.dividerHorizontal;
-			global::FAB.Droid.Resource.Attribute.dividerPadding = global::Booking.Droid.Resource.Attribute.dividerPadding;
-			global::FAB.Droid.Resource.Attribute.dividerVertical = global::Booking.Droid.Resource.Attribute.dividerVertical;
-			global::FAB.Droid.Resource.Attribute.drawableSize = global::Booking.Droid.Resource.Attribute.drawableSize;
-			global::FAB.Droid.Resource.Attribute.drawerArrowStyle = global::Booking.Droid.Resource.Attribute.drawerArrowStyle;
-			global::FAB.Droid.Resource.Attribute.dropDownListViewStyle = global::Booking.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::FAB.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::Booking.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::FAB.Droid.Resource.Attribute.editTextBackground = global::Booking.Droid.Resource.Attribute.editTextBackground;
-			global::FAB.Droid.Resource.Attribute.editTextColor = global::Booking.Droid.Resource.Attribute.editTextColor;
-			global::FAB.Droid.Resource.Attribute.editTextStyle = global::Booking.Droid.Resource.Attribute.editTextStyle;
-			global::FAB.Droid.Resource.Attribute.elevation = global::Booking.Droid.Resource.Attribute.elevation;
-			global::FAB.Droid.Resource.Attribute.errorEnabled = global::Booking.Droid.Resource.Attribute.errorEnabled;
-			global::FAB.Droid.Resource.Attribute.errorTextAppearance = global::Booking.Droid.Resource.Attribute.errorTextAppearance;
-			global::FAB.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Booking.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::FAB.Droid.Resource.Attribute.expanded = global::Booking.Droid.Resource.Attribute.expanded;
-			global::FAB.Droid.Resource.Attribute.expandedTitleGravity = global::Booking.Droid.Resource.Attribute.expandedTitleGravity;
-			global::FAB.Droid.Resource.Attribute.expandedTitleMargin = global::Booking.Droid.Resource.Attribute.expandedTitleMargin;
-			global::FAB.Droid.Resource.Attribute.expandedTitleMarginBottom = global::Booking.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::FAB.Droid.Resource.Attribute.expandedTitleMarginEnd = global::Booking.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::FAB.Droid.Resource.Attribute.expandedTitleMarginStart = global::Booking.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::FAB.Droid.Resource.Attribute.expandedTitleMarginTop = global::Booking.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::FAB.Droid.Resource.Attribute.expandedTitleTextAppearance = global::Booking.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::FAB.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::Booking.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::FAB.Droid.Resource.Attribute.fabSize = global::Booking.Droid.Resource.Attribute.fabSize;
-			global::FAB.Droid.Resource.Attribute.fab_colorDisabled = global::Booking.Droid.Resource.Attribute.fab_colorDisabled;
-			global::FAB.Droid.Resource.Attribute.fab_colorNormal = global::Booking.Droid.Resource.Attribute.fab_colorNormal;
-			global::FAB.Droid.Resource.Attribute.fab_colorPressed = global::Booking.Droid.Resource.Attribute.fab_colorPressed;
-			global::FAB.Droid.Resource.Attribute.fab_colorRipple = global::Booking.Droid.Resource.Attribute.fab_colorRipple;
-			global::FAB.Droid.Resource.Attribute.fab_shadow = global::Booking.Droid.Resource.Attribute.fab_shadow;
-			global::FAB.Droid.Resource.Attribute.fab_size = global::Booking.Droid.Resource.Attribute.fab_size;
-			global::FAB.Droid.Resource.Attribute.foregroundInsidePadding = global::Booking.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::FAB.Droid.Resource.Attribute.gapBetweenBars = global::Booking.Droid.Resource.Attribute.gapBetweenBars;
-			global::FAB.Droid.Resource.Attribute.goIcon = global::Booking.Droid.Resource.Attribute.goIcon;
-			global::FAB.Droid.Resource.Attribute.headerLayout = global::Booking.Droid.Resource.Attribute.headerLayout;
-			global::FAB.Droid.Resource.Attribute.height = global::Booking.Droid.Resource.Attribute.height;
-			global::FAB.Droid.Resource.Attribute.hideOnContentScroll = global::Booking.Droid.Resource.Attribute.hideOnContentScroll;
-			global::FAB.Droid.Resource.Attribute.hintAnimationEnabled = global::Booking.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::FAB.Droid.Resource.Attribute.hintEnabled = global::Booking.Droid.Resource.Attribute.hintEnabled;
-			global::FAB.Droid.Resource.Attribute.hintTextAppearance = global::Booking.Droid.Resource.Attribute.hintTextAppearance;
-			global::FAB.Droid.Resource.Attribute.homeAsUpIndicator = global::Booking.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::FAB.Droid.Resource.Attribute.homeLayout = global::Booking.Droid.Resource.Attribute.homeLayout;
-			global::FAB.Droid.Resource.Attribute.icon = global::Booking.Droid.Resource.Attribute.icon;
-			global::FAB.Droid.Resource.Attribute.iconifiedByDefault = global::Booking.Droid.Resource.Attribute.iconifiedByDefault;
-			global::FAB.Droid.Resource.Attribute.imageButtonStyle = global::Booking.Droid.Resource.Attribute.imageButtonStyle;
-			global::FAB.Droid.Resource.Attribute.indeterminateProgressStyle = global::Booking.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::FAB.Droid.Resource.Attribute.initialActivityCount = global::Booking.Droid.Resource.Attribute.initialActivityCount;
-			global::FAB.Droid.Resource.Attribute.insetForeground = global::Booking.Droid.Resource.Attribute.insetForeground;
-			global::FAB.Droid.Resource.Attribute.isLightTheme = global::Booking.Droid.Resource.Attribute.isLightTheme;
-			global::FAB.Droid.Resource.Attribute.itemBackground = global::Booking.Droid.Resource.Attribute.itemBackground;
-			global::FAB.Droid.Resource.Attribute.itemIconTint = global::Booking.Droid.Resource.Attribute.itemIconTint;
-			global::FAB.Droid.Resource.Attribute.itemPadding = global::Booking.Droid.Resource.Attribute.itemPadding;
-			global::FAB.Droid.Resource.Attribute.itemTextAppearance = global::Booking.Droid.Resource.Attribute.itemTextAppearance;
-			global::FAB.Droid.Resource.Attribute.itemTextColor = global::Booking.Droid.Resource.Attribute.itemTextColor;
-			global::FAB.Droid.Resource.Attribute.keylines = global::Booking.Droid.Resource.Attribute.keylines;
-			global::FAB.Droid.Resource.Attribute.layout = global::Booking.Droid.Resource.Attribute.layout;
-			global::FAB.Droid.Resource.Attribute.layoutManager = global::Booking.Droid.Resource.Attribute.layoutManager;
-			global::FAB.Droid.Resource.Attribute.layout_anchor = global::Booking.Droid.Resource.Attribute.layout_anchor;
-			global::FAB.Droid.Resource.Attribute.layout_anchorGravity = global::Booking.Droid.Resource.Attribute.layout_anchorGravity;
-			global::FAB.Droid.Resource.Attribute.layout_behavior = global::Booking.Droid.Resource.Attribute.layout_behavior;
-			global::FAB.Droid.Resource.Attribute.layout_collapseMode = global::Booking.Droid.Resource.Attribute.layout_collapseMode;
-			global::FAB.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::Booking.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::FAB.Droid.Resource.Attribute.layout_keyline = global::Booking.Droid.Resource.Attribute.layout_keyline;
-			global::FAB.Droid.Resource.Attribute.layout_scrollFlags = global::Booking.Droid.Resource.Attribute.layout_scrollFlags;
-			global::FAB.Droid.Resource.Attribute.layout_scrollInterpolator = global::Booking.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::FAB.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::Booking.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::FAB.Droid.Resource.Attribute.listDividerAlertDialog = global::Booking.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::FAB.Droid.Resource.Attribute.listItemLayout = global::Booking.Droid.Resource.Attribute.listItemLayout;
-			global::FAB.Droid.Resource.Attribute.listLayout = global::Booking.Droid.Resource.Attribute.listLayout;
-			global::FAB.Droid.Resource.Attribute.listPopupWindowStyle = global::Booking.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::FAB.Droid.Resource.Attribute.listPreferredItemHeight = global::Booking.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::FAB.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::Booking.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::FAB.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::Booking.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::FAB.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::Booking.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::FAB.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::Booking.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::FAB.Droid.Resource.Attribute.logo = global::Booking.Droid.Resource.Attribute.logo;
-			global::FAB.Droid.Resource.Attribute.logoDescription = global::Booking.Droid.Resource.Attribute.logoDescription;
-			global::FAB.Droid.Resource.Attribute.maxActionInlineWidth = global::Booking.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::FAB.Droid.Resource.Attribute.maxButtonHeight = global::Booking.Droid.Resource.Attribute.maxButtonHeight;
-			global::FAB.Droid.Resource.Attribute.measureWithLargestChild = global::Booking.Droid.Resource.Attribute.measureWithLargestChild;
-			global::FAB.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteBluetoothIconDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteButtonStyle = global::Booking.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::FAB.Droid.Resource.Attribute.mediaRouteCastDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteCastDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle = global::Booking.Droid.Resource.Attribute.mediaRouteChooserPrimaryTextStyle;
-			global::FAB.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle = global::Booking.Droid.Resource.Attribute.mediaRouteChooserSecondaryTextStyle;
-			global::FAB.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteCollapseGroupDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteConnectingDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle = global::Booking.Droid.Resource.Attribute.mediaRouteControllerPrimaryTextStyle;
-			global::FAB.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle = global::Booking.Droid.Resource.Attribute.mediaRouteControllerSecondaryTextStyle;
-			global::FAB.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle = global::Booking.Droid.Resource.Attribute.mediaRouteControllerTitleTextStyle;
-			global::FAB.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteExpandGroupDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteOffDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteOffDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteOnDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteOnDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::Booking.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::Booking.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::FAB.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::Booking.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::FAB.Droid.Resource.Attribute.menu = global::Booking.Droid.Resource.Attribute.menu;
-			global::FAB.Droid.Resource.Attribute.multiChoiceItemLayout = global::Booking.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::FAB.Droid.Resource.Attribute.navigationContentDescription = global::Booking.Droid.Resource.Attribute.navigationContentDescription;
-			global::FAB.Droid.Resource.Attribute.navigationIcon = global::Booking.Droid.Resource.Attribute.navigationIcon;
-			global::FAB.Droid.Resource.Attribute.navigationMode = global::Booking.Droid.Resource.Attribute.navigationMode;
-			global::FAB.Droid.Resource.Attribute.overlapAnchor = global::Booking.Droid.Resource.Attribute.overlapAnchor;
-			global::FAB.Droid.Resource.Attribute.paddingEnd = global::Booking.Droid.Resource.Attribute.paddingEnd;
-			global::FAB.Droid.Resource.Attribute.paddingStart = global::Booking.Droid.Resource.Attribute.paddingStart;
-			global::FAB.Droid.Resource.Attribute.panelBackground = global::Booking.Droid.Resource.Attribute.panelBackground;
-			global::FAB.Droid.Resource.Attribute.panelMenuListTheme = global::Booking.Droid.Resource.Attribute.panelMenuListTheme;
-			global::FAB.Droid.Resource.Attribute.panelMenuListWidth = global::Booking.Droid.Resource.Attribute.panelMenuListWidth;
-			global::FAB.Droid.Resource.Attribute.popupMenuStyle = global::Booking.Droid.Resource.Attribute.popupMenuStyle;
-			global::FAB.Droid.Resource.Attribute.popupTheme = global::Booking.Droid.Resource.Attribute.popupTheme;
-			global::FAB.Droid.Resource.Attribute.popupWindowStyle = global::Booking.Droid.Resource.Attribute.popupWindowStyle;
-			global::FAB.Droid.Resource.Attribute.preserveIconSpacing = global::Booking.Droid.Resource.Attribute.preserveIconSpacing;
-			global::FAB.Droid.Resource.Attribute.pressedTranslationZ = global::Booking.Droid.Resource.Attribute.pressedTranslationZ;
-			global::FAB.Droid.Resource.Attribute.progressBarPadding = global::Booking.Droid.Resource.Attribute.progressBarPadding;
-			global::FAB.Droid.Resource.Attribute.progressBarStyle = global::Booking.Droid.Resource.Attribute.progressBarStyle;
-			global::FAB.Droid.Resource.Attribute.queryBackground = global::Booking.Droid.Resource.Attribute.queryBackground;
-			global::FAB.Droid.Resource.Attribute.queryHint = global::Booking.Droid.Resource.Attribute.queryHint;
-			global::FAB.Droid.Resource.Attribute.radioButtonStyle = global::Booking.Droid.Resource.Attribute.radioButtonStyle;
-			global::FAB.Droid.Resource.Attribute.ratingBarStyle = global::Booking.Droid.Resource.Attribute.ratingBarStyle;
-			global::FAB.Droid.Resource.Attribute.ratingBarStyleIndicator = global::Booking.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::FAB.Droid.Resource.Attribute.ratingBarStyleSmall = global::Booking.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::FAB.Droid.Resource.Attribute.reverseLayout = global::Booking.Droid.Resource.Attribute.reverseLayout;
-			global::FAB.Droid.Resource.Attribute.rippleColor = global::Booking.Droid.Resource.Attribute.rippleColor;
-			global::FAB.Droid.Resource.Attribute.searchHintIcon = global::Booking.Droid.Resource.Attribute.searchHintIcon;
-			global::FAB.Droid.Resource.Attribute.searchIcon = global::Booking.Droid.Resource.Attribute.searchIcon;
-			global::FAB.Droid.Resource.Attribute.searchViewStyle = global::Booking.Droid.Resource.Attribute.searchViewStyle;
-			global::FAB.Droid.Resource.Attribute.seekBarStyle = global::Booking.Droid.Resource.Attribute.seekBarStyle;
-			global::FAB.Droid.Resource.Attribute.selectableItemBackground = global::Booking.Droid.Resource.Attribute.selectableItemBackground;
-			global::FAB.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::Booking.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::FAB.Droid.Resource.Attribute.showAsAction = global::Booking.Droid.Resource.Attribute.showAsAction;
-			global::FAB.Droid.Resource.Attribute.showDividers = global::Booking.Droid.Resource.Attribute.showDividers;
-			global::FAB.Droid.Resource.Attribute.showText = global::Booking.Droid.Resource.Attribute.showText;
-			global::FAB.Droid.Resource.Attribute.singleChoiceItemLayout = global::Booking.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::FAB.Droid.Resource.Attribute.spanCount = global::Booking.Droid.Resource.Attribute.spanCount;
-			global::FAB.Droid.Resource.Attribute.spinBars = global::Booking.Droid.Resource.Attribute.spinBars;
-			global::FAB.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::Booking.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::FAB.Droid.Resource.Attribute.spinnerStyle = global::Booking.Droid.Resource.Attribute.spinnerStyle;
-			global::FAB.Droid.Resource.Attribute.splitTrack = global::Booking.Droid.Resource.Attribute.splitTrack;
-			global::FAB.Droid.Resource.Attribute.srcCompat = global::Booking.Droid.Resource.Attribute.srcCompat;
-			global::FAB.Droid.Resource.Attribute.stackFromEnd = global::Booking.Droid.Resource.Attribute.stackFromEnd;
-			global::FAB.Droid.Resource.Attribute.state_above_anchor = global::Booking.Droid.Resource.Attribute.state_above_anchor;
-			global::FAB.Droid.Resource.Attribute.statusBarBackground = global::Booking.Droid.Resource.Attribute.statusBarBackground;
-			global::FAB.Droid.Resource.Attribute.statusBarScrim = global::Booking.Droid.Resource.Attribute.statusBarScrim;
-			global::FAB.Droid.Resource.Attribute.submitBackground = global::Booking.Droid.Resource.Attribute.submitBackground;
-			global::FAB.Droid.Resource.Attribute.subtitle = global::Booking.Droid.Resource.Attribute.subtitle;
-			global::FAB.Droid.Resource.Attribute.subtitleTextAppearance = global::Booking.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::FAB.Droid.Resource.Attribute.subtitleTextColor = global::Booking.Droid.Resource.Attribute.subtitleTextColor;
-			global::FAB.Droid.Resource.Attribute.subtitleTextStyle = global::Booking.Droid.Resource.Attribute.subtitleTextStyle;
-			global::FAB.Droid.Resource.Attribute.suggestionRowLayout = global::Booking.Droid.Resource.Attribute.suggestionRowLayout;
-			global::FAB.Droid.Resource.Attribute.switchMinWidth = global::Booking.Droid.Resource.Attribute.switchMinWidth;
-			global::FAB.Droid.Resource.Attribute.switchPadding = global::Booking.Droid.Resource.Attribute.switchPadding;
-			global::FAB.Droid.Resource.Attribute.switchStyle = global::Booking.Droid.Resource.Attribute.switchStyle;
-			global::FAB.Droid.Resource.Attribute.switchTextAppearance = global::Booking.Droid.Resource.Attribute.switchTextAppearance;
-			global::FAB.Droid.Resource.Attribute.tabBackground = global::Booking.Droid.Resource.Attribute.tabBackground;
-			global::FAB.Droid.Resource.Attribute.tabContentStart = global::Booking.Droid.Resource.Attribute.tabContentStart;
-			global::FAB.Droid.Resource.Attribute.tabGravity = global::Booking.Droid.Resource.Attribute.tabGravity;
-			global::FAB.Droid.Resource.Attribute.tabIndicatorColor = global::Booking.Droid.Resource.Attribute.tabIndicatorColor;
-			global::FAB.Droid.Resource.Attribute.tabIndicatorHeight = global::Booking.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::FAB.Droid.Resource.Attribute.tabMaxWidth = global::Booking.Droid.Resource.Attribute.tabMaxWidth;
-			global::FAB.Droid.Resource.Attribute.tabMinWidth = global::Booking.Droid.Resource.Attribute.tabMinWidth;
-			global::FAB.Droid.Resource.Attribute.tabMode = global::Booking.Droid.Resource.Attribute.tabMode;
-			global::FAB.Droid.Resource.Attribute.tabPadding = global::Booking.Droid.Resource.Attribute.tabPadding;
-			global::FAB.Droid.Resource.Attribute.tabPaddingBottom = global::Booking.Droid.Resource.Attribute.tabPaddingBottom;
-			global::FAB.Droid.Resource.Attribute.tabPaddingEnd = global::Booking.Droid.Resource.Attribute.tabPaddingEnd;
-			global::FAB.Droid.Resource.Attribute.tabPaddingStart = global::Booking.Droid.Resource.Attribute.tabPaddingStart;
-			global::FAB.Droid.Resource.Attribute.tabPaddingTop = global::Booking.Droid.Resource.Attribute.tabPaddingTop;
-			global::FAB.Droid.Resource.Attribute.tabSelectedTextColor = global::Booking.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::FAB.Droid.Resource.Attribute.tabTextAppearance = global::Booking.Droid.Resource.Attribute.tabTextAppearance;
-			global::FAB.Droid.Resource.Attribute.tabTextColor = global::Booking.Droid.Resource.Attribute.tabTextColor;
-			global::FAB.Droid.Resource.Attribute.textAllCaps = global::Booking.Droid.Resource.Attribute.textAllCaps;
-			global::FAB.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::Booking.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::FAB.Droid.Resource.Attribute.textAppearanceListItem = global::Booking.Droid.Resource.Attribute.textAppearanceListItem;
-			global::FAB.Droid.Resource.Attribute.textAppearanceListItemSmall = global::Booking.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::FAB.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Booking.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::FAB.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::Booking.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::FAB.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::Booking.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::FAB.Droid.Resource.Attribute.textColorAlertDialogListItem = global::Booking.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::FAB.Droid.Resource.Attribute.textColorError = global::Booking.Droid.Resource.Attribute.textColorError;
-			global::FAB.Droid.Resource.Attribute.textColorSearchUrl = global::Booking.Droid.Resource.Attribute.textColorSearchUrl;
-			global::FAB.Droid.Resource.Attribute.theme = global::Booking.Droid.Resource.Attribute.theme;
-			global::FAB.Droid.Resource.Attribute.thickness = global::Booking.Droid.Resource.Attribute.thickness;
-			global::FAB.Droid.Resource.Attribute.thumbTextPadding = global::Booking.Droid.Resource.Attribute.thumbTextPadding;
-			global::FAB.Droid.Resource.Attribute.title = global::Booking.Droid.Resource.Attribute.title;
-			global::FAB.Droid.Resource.Attribute.titleEnabled = global::Booking.Droid.Resource.Attribute.titleEnabled;
-			global::FAB.Droid.Resource.Attribute.titleMarginBottom = global::Booking.Droid.Resource.Attribute.titleMarginBottom;
-			global::FAB.Droid.Resource.Attribute.titleMarginEnd = global::Booking.Droid.Resource.Attribute.titleMarginEnd;
-			global::FAB.Droid.Resource.Attribute.titleMarginStart = global::Booking.Droid.Resource.Attribute.titleMarginStart;
-			global::FAB.Droid.Resource.Attribute.titleMarginTop = global::Booking.Droid.Resource.Attribute.titleMarginTop;
-			global::FAB.Droid.Resource.Attribute.titleMargins = global::Booking.Droid.Resource.Attribute.titleMargins;
-			global::FAB.Droid.Resource.Attribute.titleTextAppearance = global::Booking.Droid.Resource.Attribute.titleTextAppearance;
-			global::FAB.Droid.Resource.Attribute.titleTextColor = global::Booking.Droid.Resource.Attribute.titleTextColor;
-			global::FAB.Droid.Resource.Attribute.titleTextStyle = global::Booking.Droid.Resource.Attribute.titleTextStyle;
-			global::FAB.Droid.Resource.Attribute.toolbarId = global::Booking.Droid.Resource.Attribute.toolbarId;
-			global::FAB.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::Booking.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::FAB.Droid.Resource.Attribute.toolbarStyle = global::Booking.Droid.Resource.Attribute.toolbarStyle;
-			global::FAB.Droid.Resource.Attribute.track = global::Booking.Droid.Resource.Attribute.track;
-			global::FAB.Droid.Resource.Attribute.useCompatPadding = global::Booking.Droid.Resource.Attribute.useCompatPadding;
-			global::FAB.Droid.Resource.Attribute.voiceIcon = global::Booking.Droid.Resource.Attribute.voiceIcon;
-			global::FAB.Droid.Resource.Attribute.windowActionBar = global::Booking.Droid.Resource.Attribute.windowActionBar;
-			global::FAB.Droid.Resource.Attribute.windowActionBarOverlay = global::Booking.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::FAB.Droid.Resource.Attribute.windowActionModeOverlay = global::Booking.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::FAB.Droid.Resource.Attribute.windowFixedHeightMajor = global::Booking.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::FAB.Droid.Resource.Attribute.windowFixedHeightMinor = global::Booking.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::FAB.Droid.Resource.Attribute.windowFixedWidthMajor = global::Booking.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::FAB.Droid.Resource.Attribute.windowFixedWidthMinor = global::Booking.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::FAB.Droid.Resource.Attribute.windowMinWidthMajor = global::Booking.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::FAB.Droid.Resource.Attribute.windowMinWidthMinor = global::Booking.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::FAB.Droid.Resource.Attribute.windowNoTitle = global::Booking.Droid.Resource.Attribute.windowNoTitle;
-			global::FAB.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::Booking.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::FAB.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::Booking.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
-			global::FAB.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::Booking.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
-			global::FAB.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::Booking.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::FAB.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Booking.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::FAB.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::Booking.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
-			global::FAB.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Booking.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::FAB.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Booking.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::FAB.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Booking.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::FAB.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::Booking.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::FAB.Droid.Resource.Color.abc_color_highlight_material = global::Booking.Droid.Resource.Color.abc_color_highlight_material;
-			global::FAB.Droid.Resource.Color.abc_input_method_navigation_guard = global::Booking.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::FAB.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::Booking.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::FAB.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::Booking.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::FAB.Droid.Resource.Color.abc_primary_text_material_dark = global::Booking.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::FAB.Droid.Resource.Color.abc_primary_text_material_light = global::Booking.Droid.Resource.Color.abc_primary_text_material_light;
-			global::FAB.Droid.Resource.Color.abc_search_url_text = global::Booking.Droid.Resource.Color.abc_search_url_text;
-			global::FAB.Droid.Resource.Color.abc_search_url_text_normal = global::Booking.Droid.Resource.Color.abc_search_url_text_normal;
-			global::FAB.Droid.Resource.Color.abc_search_url_text_pressed = global::Booking.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::FAB.Droid.Resource.Color.abc_search_url_text_selected = global::Booking.Droid.Resource.Color.abc_search_url_text_selected;
-			global::FAB.Droid.Resource.Color.abc_secondary_text_material_dark = global::Booking.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::FAB.Droid.Resource.Color.abc_secondary_text_material_light = global::Booking.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::FAB.Droid.Resource.Color.accent_material_dark = global::Booking.Droid.Resource.Color.accent_material_dark;
-			global::FAB.Droid.Resource.Color.accent_material_light = global::Booking.Droid.Resource.Color.accent_material_light;
-			global::FAB.Droid.Resource.Color.background_floating_material_dark = global::Booking.Droid.Resource.Color.background_floating_material_dark;
-			global::FAB.Droid.Resource.Color.background_floating_material_light = global::Booking.Droid.Resource.Color.background_floating_material_light;
-			global::FAB.Droid.Resource.Color.background_material_dark = global::Booking.Droid.Resource.Color.background_material_dark;
-			global::FAB.Droid.Resource.Color.background_material_light = global::Booking.Droid.Resource.Color.background_material_light;
-			global::FAB.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::Booking.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::FAB.Droid.Resource.Color.bright_foreground_disabled_material_light = global::Booking.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::FAB.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::Booking.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::FAB.Droid.Resource.Color.bright_foreground_inverse_material_light = global::Booking.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::FAB.Droid.Resource.Color.bright_foreground_material_dark = global::Booking.Droid.Resource.Color.bright_foreground_material_dark;
-			global::FAB.Droid.Resource.Color.bright_foreground_material_light = global::Booking.Droid.Resource.Color.bright_foreground_material_light;
-			global::FAB.Droid.Resource.Color.button_material_dark = global::Booking.Droid.Resource.Color.button_material_dark;
-			global::FAB.Droid.Resource.Color.button_material_light = global::Booking.Droid.Resource.Color.button_material_light;
-			global::FAB.Droid.Resource.Color.cardview_dark_background = global::Booking.Droid.Resource.Color.cardview_dark_background;
-			global::FAB.Droid.Resource.Color.cardview_light_background = global::Booking.Droid.Resource.Color.cardview_light_background;
-			global::FAB.Droid.Resource.Color.cardview_shadow_end_color = global::Booking.Droid.Resource.Color.cardview_shadow_end_color;
-			global::FAB.Droid.Resource.Color.cardview_shadow_start_color = global::Booking.Droid.Resource.Color.cardview_shadow_start_color;
-			global::FAB.Droid.Resource.Color.design_fab_shadow_end_color = global::Booking.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::FAB.Droid.Resource.Color.design_fab_shadow_mid_color = global::Booking.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::FAB.Droid.Resource.Color.design_fab_shadow_start_color = global::Booking.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::FAB.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::Booking.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::FAB.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::Booking.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::FAB.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::Booking.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::FAB.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::Booking.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::FAB.Droid.Resource.Color.design_snackbar_background_color = global::Booking.Droid.Resource.Color.design_snackbar_background_color;
-			global::FAB.Droid.Resource.Color.design_textinput_error_color_dark = global::Booking.Droid.Resource.Color.design_textinput_error_color_dark;
-			global::FAB.Droid.Resource.Color.design_textinput_error_color_light = global::Booking.Droid.Resource.Color.design_textinput_error_color_light;
-			global::FAB.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::Booking.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::FAB.Droid.Resource.Color.dim_foreground_disabled_material_light = global::Booking.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::FAB.Droid.Resource.Color.dim_foreground_material_dark = global::Booking.Droid.Resource.Color.dim_foreground_material_dark;
-			global::FAB.Droid.Resource.Color.dim_foreground_material_light = global::Booking.Droid.Resource.Color.dim_foreground_material_light;
-			global::FAB.Droid.Resource.Color.fab_material_blue_500 = global::Booking.Droid.Resource.Color.fab_material_blue_500;
-			global::FAB.Droid.Resource.Color.foreground_material_dark = global::Booking.Droid.Resource.Color.foreground_material_dark;
-			global::FAB.Droid.Resource.Color.foreground_material_light = global::Booking.Droid.Resource.Color.foreground_material_light;
-			global::FAB.Droid.Resource.Color.highlighted_text_material_dark = global::Booking.Droid.Resource.Color.highlighted_text_material_dark;
-			global::FAB.Droid.Resource.Color.highlighted_text_material_light = global::Booking.Droid.Resource.Color.highlighted_text_material_light;
-			global::FAB.Droid.Resource.Color.hint_foreground_material_dark = global::Booking.Droid.Resource.Color.hint_foreground_material_dark;
-			global::FAB.Droid.Resource.Color.hint_foreground_material_light = global::Booking.Droid.Resource.Color.hint_foreground_material_light;
-			global::FAB.Droid.Resource.Color.material_blue_grey_800 = global::Booking.Droid.Resource.Color.material_blue_grey_800;
-			global::FAB.Droid.Resource.Color.material_blue_grey_900 = global::Booking.Droid.Resource.Color.material_blue_grey_900;
-			global::FAB.Droid.Resource.Color.material_blue_grey_950 = global::Booking.Droid.Resource.Color.material_blue_grey_950;
-			global::FAB.Droid.Resource.Color.material_deep_teal_200 = global::Booking.Droid.Resource.Color.material_deep_teal_200;
-			global::FAB.Droid.Resource.Color.material_deep_teal_500 = global::Booking.Droid.Resource.Color.material_deep_teal_500;
-			global::FAB.Droid.Resource.Color.material_grey_100 = global::Booking.Droid.Resource.Color.material_grey_100;
-			global::FAB.Droid.Resource.Color.material_grey_300 = global::Booking.Droid.Resource.Color.material_grey_300;
-			global::FAB.Droid.Resource.Color.material_grey_50 = global::Booking.Droid.Resource.Color.material_grey_50;
-			global::FAB.Droid.Resource.Color.material_grey_600 = global::Booking.Droid.Resource.Color.material_grey_600;
-			global::FAB.Droid.Resource.Color.material_grey_800 = global::Booking.Droid.Resource.Color.material_grey_800;
-			global::FAB.Droid.Resource.Color.material_grey_850 = global::Booking.Droid.Resource.Color.material_grey_850;
-			global::FAB.Droid.Resource.Color.material_grey_900 = global::Booking.Droid.Resource.Color.material_grey_900;
-			global::FAB.Droid.Resource.Color.primary_dark_material_dark = global::Booking.Droid.Resource.Color.primary_dark_material_dark;
-			global::FAB.Droid.Resource.Color.primary_dark_material_light = global::Booking.Droid.Resource.Color.primary_dark_material_light;
-			global::FAB.Droid.Resource.Color.primary_material_dark = global::Booking.Droid.Resource.Color.primary_material_dark;
-			global::FAB.Droid.Resource.Color.primary_material_light = global::Booking.Droid.Resource.Color.primary_material_light;
-			global::FAB.Droid.Resource.Color.primary_text_default_material_dark = global::Booking.Droid.Resource.Color.primary_text_default_material_dark;
-			global::FAB.Droid.Resource.Color.primary_text_default_material_light = global::Booking.Droid.Resource.Color.primary_text_default_material_light;
-			global::FAB.Droid.Resource.Color.primary_text_disabled_material_dark = global::Booking.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::FAB.Droid.Resource.Color.primary_text_disabled_material_light = global::Booking.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::FAB.Droid.Resource.Color.ripple_material_dark = global::Booking.Droid.Resource.Color.ripple_material_dark;
-			global::FAB.Droid.Resource.Color.ripple_material_light = global::Booking.Droid.Resource.Color.ripple_material_light;
-			global::FAB.Droid.Resource.Color.secondary_text_default_material_dark = global::Booking.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::FAB.Droid.Resource.Color.secondary_text_default_material_light = global::Booking.Droid.Resource.Color.secondary_text_default_material_light;
-			global::FAB.Droid.Resource.Color.secondary_text_disabled_material_dark = global::Booking.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::FAB.Droid.Resource.Color.secondary_text_disabled_material_light = global::Booking.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::FAB.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::Booking.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::FAB.Droid.Resource.Color.switch_thumb_disabled_material_light = global::Booking.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::FAB.Droid.Resource.Color.switch_thumb_material_dark = global::Booking.Droid.Resource.Color.switch_thumb_material_dark;
-			global::FAB.Droid.Resource.Color.switch_thumb_material_light = global::Booking.Droid.Resource.Color.switch_thumb_material_light;
-			global::FAB.Droid.Resource.Color.switch_thumb_normal_material_dark = global::Booking.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::FAB.Droid.Resource.Color.switch_thumb_normal_material_light = global::Booking.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::Booking.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::Booking.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Booking.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Booking.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Booking.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Booking.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Booking.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_progress_bar_size = global::Booking.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::Booking.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Booking.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Booking.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Booking.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_button_min_height_material = global::Booking.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_button_min_width_material = global::Booking.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::FAB.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Booking.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::FAB.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Booking.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::FAB.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::Booking.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::FAB.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::Booking.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::FAB.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::Booking.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::FAB.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::Booking.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::FAB.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::Booking.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::FAB.Droid.Resource.Dimension.abc_control_corner_material = global::Booking.Droid.Resource.Dimension.abc_control_corner_material;
-			global::FAB.Droid.Resource.Dimension.abc_control_inset_material = global::Booking.Droid.Resource.Dimension.abc_control_inset_material;
-			global::FAB.Droid.Resource.Dimension.abc_control_padding_material = global::Booking.Droid.Resource.Dimension.abc_control_padding_material;
-			global::FAB.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::Booking.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::FAB.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::Booking.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::FAB.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::Booking.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::FAB.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::Booking.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::FAB.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::Booking.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
-			global::FAB.Droid.Resource.Dimension.abc_dialog_min_width_major = global::Booking.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::FAB.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::Booking.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::FAB.Droid.Resource.Dimension.abc_dialog_padding_material = global::Booking.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::FAB.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::Booking.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::FAB.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::Booking.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::FAB.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::Booking.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::FAB.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::Booking.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::FAB.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Booking.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::FAB.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Booking.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::FAB.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Booking.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::FAB.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Booking.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::FAB.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::Booking.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::FAB.Droid.Resource.Dimension.abc_floating_window_z = global::Booking.Droid.Resource.Dimension.abc_floating_window_z;
-			global::FAB.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Booking.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::FAB.Droid.Resource.Dimension.abc_panel_menu_list_width = global::Booking.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::FAB.Droid.Resource.Dimension.abc_search_view_preferred_width = global::Booking.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::FAB.Droid.Resource.Dimension.abc_search_view_text_min_width = global::Booking.Droid.Resource.Dimension.abc_search_view_text_min_width;
-			global::FAB.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::Booking.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::FAB.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::Booking.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::FAB.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::Booking.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::FAB.Droid.Resource.Dimension.abc_switch_padding = global::Booking.Droid.Resource.Dimension.abc_switch_padding;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_body_1_material = global::Booking.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_body_2_material = global::Booking.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_button_material = global::Booking.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_caption_material = global::Booking.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_display_1_material = global::Booking.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_display_2_material = global::Booking.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_display_3_material = global::Booking.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_display_4_material = global::Booking.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_headline_material = global::Booking.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_large_material = global::Booking.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_medium_material = global::Booking.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_menu_material = global::Booking.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_small_material = global::Booking.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_subhead_material = global::Booking.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Booking.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_title_material = global::Booking.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::FAB.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::Booking.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::FAB.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::Booking.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::FAB.Droid.Resource.Dimension.cardview_default_elevation = global::Booking.Droid.Resource.Dimension.cardview_default_elevation;
-			global::FAB.Droid.Resource.Dimension.cardview_default_radius = global::Booking.Droid.Resource.Dimension.cardview_default_radius;
-			global::FAB.Droid.Resource.Dimension.design_appbar_elevation = global::Booking.Droid.Resource.Dimension.design_appbar_elevation;
-			global::FAB.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::Booking.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::FAB.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height = global::Booking.Droid.Resource.Dimension.design_bottom_sheet_modal_peek_height;
-			global::FAB.Droid.Resource.Dimension.design_fab_border_width = global::Booking.Droid.Resource.Dimension.design_fab_border_width;
-			global::FAB.Droid.Resource.Dimension.design_fab_elevation = global::Booking.Droid.Resource.Dimension.design_fab_elevation;
-			global::FAB.Droid.Resource.Dimension.design_fab_image_size = global::Booking.Droid.Resource.Dimension.design_fab_image_size;
-			global::FAB.Droid.Resource.Dimension.design_fab_size_mini = global::Booking.Droid.Resource.Dimension.design_fab_size_mini;
-			global::FAB.Droid.Resource.Dimension.design_fab_size_normal = global::Booking.Droid.Resource.Dimension.design_fab_size_normal;
-			global::FAB.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::Booking.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::FAB.Droid.Resource.Dimension.design_navigation_elevation = global::Booking.Droid.Resource.Dimension.design_navigation_elevation;
-			global::FAB.Droid.Resource.Dimension.design_navigation_icon_padding = global::Booking.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::FAB.Droid.Resource.Dimension.design_navigation_icon_size = global::Booking.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::FAB.Droid.Resource.Dimension.design_navigation_max_width = global::Booking.Droid.Resource.Dimension.design_navigation_max_width;
-			global::FAB.Droid.Resource.Dimension.design_navigation_padding_bottom = global::Booking.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::FAB.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::Booking.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::Booking.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::Booking.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_elevation = global::Booking.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Booking.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_max_width = global::Booking.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_min_width = global::Booking.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::Booking.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::Booking.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Booking.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::FAB.Droid.Resource.Dimension.design_snackbar_text_size = global::Booking.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::FAB.Droid.Resource.Dimension.design_tab_max_width = global::Booking.Droid.Resource.Dimension.design_tab_max_width;
-			global::FAB.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::Booking.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::FAB.Droid.Resource.Dimension.design_tab_text_size = global::Booking.Droid.Resource.Dimension.design_tab_text_size;
-			global::FAB.Droid.Resource.Dimension.design_tab_text_size_2line = global::Booking.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::FAB.Droid.Resource.Dimension.disabled_alpha_material_dark = global::Booking.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::FAB.Droid.Resource.Dimension.disabled_alpha_material_light = global::Booking.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::FAB.Droid.Resource.Dimension.fab_elevation_lollipop = global::Booking.Droid.Resource.Dimension.fab_elevation_lollipop;
-			global::FAB.Droid.Resource.Dimension.fab_scroll_threshold = global::Booking.Droid.Resource.Dimension.fab_scroll_threshold;
-			global::FAB.Droid.Resource.Dimension.fab_shadow_size = global::Booking.Droid.Resource.Dimension.fab_shadow_size;
-			global::FAB.Droid.Resource.Dimension.fab_size_mini = global::Booking.Droid.Resource.Dimension.fab_size_mini;
-			global::FAB.Droid.Resource.Dimension.fab_size_normal = global::Booking.Droid.Resource.Dimension.fab_size_normal;
-			global::FAB.Droid.Resource.Dimension.highlight_alpha_material_colored = global::Booking.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::FAB.Droid.Resource.Dimension.highlight_alpha_material_dark = global::Booking.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::FAB.Droid.Resource.Dimension.highlight_alpha_material_light = global::Booking.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::FAB.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::Booking.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::FAB.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::Booking.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::FAB.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::Booking.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::FAB.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::Booking.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::FAB.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::Booking.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::FAB.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::Booking.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::FAB.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::Booking.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::FAB.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::Booking.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::FAB.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::Booking.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::FAB.Droid.Resource.Dimension.notification_large_icon_height = global::Booking.Droid.Resource.Dimension.notification_large_icon_height;
-			global::FAB.Droid.Resource.Dimension.notification_large_icon_width = global::Booking.Droid.Resource.Dimension.notification_large_icon_width;
-			global::FAB.Droid.Resource.Dimension.notification_subtext_size = global::Booking.Droid.Resource.Dimension.notification_subtext_size;
-			global::FAB.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::Booking.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::FAB.Droid.Resource.Drawable.abc_btn_borderless_material = global::Booking.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::FAB.Droid.Resource.Drawable.abc_btn_check_material = global::Booking.Droid.Resource.Drawable.abc_btn_check_material;
-			global::FAB.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Booking.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::FAB.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Booking.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::FAB.Droid.Resource.Drawable.abc_btn_colored_material = global::Booking.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::FAB.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::Booking.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::FAB.Droid.Resource.Drawable.abc_btn_radio_material = global::Booking.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::FAB.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Booking.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::FAB.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Booking.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::FAB.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Booking.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::FAB.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Booking.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::FAB.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::Booking.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::FAB.Droid.Resource.Drawable.abc_cab_background_top_material = global::Booking.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::FAB.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_control_background_material = global::Booking.Droid.Resource.Drawable.abc_control_background_material;
-			global::FAB.Droid.Resource.Drawable.abc_dialog_material_background_dark = global::Booking.Droid.Resource.Drawable.abc_dialog_material_background_dark;
-			global::FAB.Droid.Resource.Drawable.abc_dialog_material_background_light = global::Booking.Droid.Resource.Drawable.abc_dialog_material_background_light;
-			global::FAB.Droid.Resource.Drawable.abc_edit_text_material = global::Booking.Droid.Resource.Drawable.abc_edit_text_material;
-			global::FAB.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::Booking.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::FAB.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::Booking.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::FAB.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::Booking.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::FAB.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::Booking.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::FAB.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_item_background_holo_dark = global::Booking.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::FAB.Droid.Resource.Drawable.abc_item_background_holo_light = global::Booking.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::FAB.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_list_focused_holo = global::Booking.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::FAB.Droid.Resource.Drawable.abc_list_longpressed_holo = global::Booking.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::FAB.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::Booking.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::FAB.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::Booking.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::FAB.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Booking.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::FAB.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Booking.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::FAB.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Booking.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::FAB.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Booking.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::FAB.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::Booking.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::FAB.Droid.Resource.Drawable.abc_list_selector_holo_light = global::Booking.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::FAB.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Booking.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::FAB.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::Booking.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::FAB.Droid.Resource.Drawable.abc_ratingbar_full_material = global::Booking.Droid.Resource.Drawable.abc_ratingbar_full_material;
-			global::FAB.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::Booking.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::FAB.Droid.Resource.Drawable.abc_ratingbar_small_material = global::Booking.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::FAB.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::Booking.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::FAB.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::Booking.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::FAB.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::Booking.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::FAB.Droid.Resource.Drawable.abc_seekbar_track_material = global::Booking.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::FAB.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Booking.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::Booking.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::FAB.Droid.Resource.Drawable.abc_switch_thumb_material = global::Booking.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::FAB.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_tab_indicator_material = global::Booking.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::FAB.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_text_cursor_material = global::Booking.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::FAB.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Booking.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::FAB.Droid.Resource.Drawable.abc_textfield_search_material = global::Booking.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::FAB.Droid.Resource.Drawable.design_fab_background = global::Booking.Droid.Resource.Drawable.design_fab_background;
-			global::FAB.Droid.Resource.Drawable.design_snackbar_background = global::Booking.Droid.Resource.Drawable.design_snackbar_background;
-			global::FAB.Droid.Resource.Drawable.fab_shadow = global::Booking.Droid.Resource.Drawable.fab_shadow;
-			global::FAB.Droid.Resource.Drawable.fab_shadow_mini = global::Booking.Droid.Resource.Drawable.fab_shadow_mini;
-			global::FAB.Droid.Resource.Drawable.ic_audiotrack = global::Booking.Droid.Resource.Drawable.ic_audiotrack;
-			global::FAB.Droid.Resource.Drawable.ic_audiotrack_light = global::Booking.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::FAB.Droid.Resource.Drawable.ic_bluetooth_grey = global::Booking.Droid.Resource.Drawable.ic_bluetooth_grey;
-			global::FAB.Droid.Resource.Drawable.ic_bluetooth_white = global::Booking.Droid.Resource.Drawable.ic_bluetooth_white;
-			global::FAB.Droid.Resource.Drawable.ic_cast_dark = global::Booking.Droid.Resource.Drawable.ic_cast_dark;
-			global::FAB.Droid.Resource.Drawable.ic_cast_disabled_light = global::Booking.Droid.Resource.Drawable.ic_cast_disabled_light;
-			global::FAB.Droid.Resource.Drawable.ic_cast_grey = global::Booking.Droid.Resource.Drawable.ic_cast_grey;
-			global::FAB.Droid.Resource.Drawable.ic_cast_light = global::Booking.Droid.Resource.Drawable.ic_cast_light;
-			global::FAB.Droid.Resource.Drawable.ic_cast_off_light = global::Booking.Droid.Resource.Drawable.ic_cast_off_light;
-			global::FAB.Droid.Resource.Drawable.ic_cast_on_0_light = global::Booking.Droid.Resource.Drawable.ic_cast_on_0_light;
-			global::FAB.Droid.Resource.Drawable.ic_cast_on_1_light = global::Booking.Droid.Resource.Drawable.ic_cast_on_1_light;
-			global::FAB.Droid.Resource.Drawable.ic_cast_on_2_light = global::Booking.Droid.Resource.Drawable.ic_cast_on_2_light;
-			global::FAB.Droid.Resource.Drawable.ic_cast_on_light = global::Booking.Droid.Resource.Drawable.ic_cast_on_light;
-			global::FAB.Droid.Resource.Drawable.ic_cast_white = global::Booking.Droid.Resource.Drawable.ic_cast_white;
-			global::FAB.Droid.Resource.Drawable.ic_close_dark = global::Booking.Droid.Resource.Drawable.ic_close_dark;
-			global::FAB.Droid.Resource.Drawable.ic_close_light = global::Booking.Droid.Resource.Drawable.ic_close_light;
-			global::FAB.Droid.Resource.Drawable.ic_collapse = global::Booking.Droid.Resource.Drawable.ic_collapse;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00000 = global::Booking.Droid.Resource.Drawable.ic_collapse_00000;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00001 = global::Booking.Droid.Resource.Drawable.ic_collapse_00001;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00002 = global::Booking.Droid.Resource.Drawable.ic_collapse_00002;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00003 = global::Booking.Droid.Resource.Drawable.ic_collapse_00003;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00004 = global::Booking.Droid.Resource.Drawable.ic_collapse_00004;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00005 = global::Booking.Droid.Resource.Drawable.ic_collapse_00005;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00006 = global::Booking.Droid.Resource.Drawable.ic_collapse_00006;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00007 = global::Booking.Droid.Resource.Drawable.ic_collapse_00007;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00008 = global::Booking.Droid.Resource.Drawable.ic_collapse_00008;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00009 = global::Booking.Droid.Resource.Drawable.ic_collapse_00009;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00010 = global::Booking.Droid.Resource.Drawable.ic_collapse_00010;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00011 = global::Booking.Droid.Resource.Drawable.ic_collapse_00011;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00012 = global::Booking.Droid.Resource.Drawable.ic_collapse_00012;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00013 = global::Booking.Droid.Resource.Drawable.ic_collapse_00013;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00014 = global::Booking.Droid.Resource.Drawable.ic_collapse_00014;
-			global::FAB.Droid.Resource.Drawable.ic_collapse_00015 = global::Booking.Droid.Resource.Drawable.ic_collapse_00015;
-			global::FAB.Droid.Resource.Drawable.ic_expand = global::Booking.Droid.Resource.Drawable.ic_expand;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00000 = global::Booking.Droid.Resource.Drawable.ic_expand_00000;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00001 = global::Booking.Droid.Resource.Drawable.ic_expand_00001;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00002 = global::Booking.Droid.Resource.Drawable.ic_expand_00002;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00003 = global::Booking.Droid.Resource.Drawable.ic_expand_00003;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00004 = global::Booking.Droid.Resource.Drawable.ic_expand_00004;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00005 = global::Booking.Droid.Resource.Drawable.ic_expand_00005;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00006 = global::Booking.Droid.Resource.Drawable.ic_expand_00006;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00007 = global::Booking.Droid.Resource.Drawable.ic_expand_00007;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00008 = global::Booking.Droid.Resource.Drawable.ic_expand_00008;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00009 = global::Booking.Droid.Resource.Drawable.ic_expand_00009;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00010 = global::Booking.Droid.Resource.Drawable.ic_expand_00010;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00011 = global::Booking.Droid.Resource.Drawable.ic_expand_00011;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00012 = global::Booking.Droid.Resource.Drawable.ic_expand_00012;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00013 = global::Booking.Droid.Resource.Drawable.ic_expand_00013;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00014 = global::Booking.Droid.Resource.Drawable.ic_expand_00014;
-			global::FAB.Droid.Resource.Drawable.ic_expand_00015 = global::Booking.Droid.Resource.Drawable.ic_expand_00015;
-			global::FAB.Droid.Resource.Drawable.ic_media_pause = global::Booking.Droid.Resource.Drawable.ic_media_pause;
-			global::FAB.Droid.Resource.Drawable.ic_media_play = global::Booking.Droid.Resource.Drawable.ic_media_play;
-			global::FAB.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark = global::Booking.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
-			global::FAB.Droid.Resource.Drawable.ic_media_route_off_mono_dark = global::Booking.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
-			global::FAB.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark = global::Booking.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
-			global::FAB.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark = global::Booking.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
-			global::FAB.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark = global::Booking.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
-			global::FAB.Droid.Resource.Drawable.ic_media_route_on_mono_dark = global::Booking.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
-			global::FAB.Droid.Resource.Drawable.ic_pause_dark = global::Booking.Droid.Resource.Drawable.ic_pause_dark;
-			global::FAB.Droid.Resource.Drawable.ic_pause_light = global::Booking.Droid.Resource.Drawable.ic_pause_light;
-			global::FAB.Droid.Resource.Drawable.ic_play_dark = global::Booking.Droid.Resource.Drawable.ic_play_dark;
-			global::FAB.Droid.Resource.Drawable.ic_play_light = global::Booking.Droid.Resource.Drawable.ic_play_light;
-			global::FAB.Droid.Resource.Drawable.ic_speaker_dark = global::Booking.Droid.Resource.Drawable.ic_speaker_dark;
-			global::FAB.Droid.Resource.Drawable.ic_speaker_group_dark = global::Booking.Droid.Resource.Drawable.ic_speaker_group_dark;
-			global::FAB.Droid.Resource.Drawable.ic_speaker_group_light = global::Booking.Droid.Resource.Drawable.ic_speaker_group_light;
-			global::FAB.Droid.Resource.Drawable.ic_speaker_light = global::Booking.Droid.Resource.Drawable.ic_speaker_light;
-			global::FAB.Droid.Resource.Drawable.ic_tv_dark = global::Booking.Droid.Resource.Drawable.ic_tv_dark;
-			global::FAB.Droid.Resource.Drawable.ic_tv_light = global::Booking.Droid.Resource.Drawable.ic_tv_light;
-			global::FAB.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::Booking.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::FAB.Droid.Resource.Drawable.mr_dialog_material_background_light = global::Booking.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::FAB.Droid.Resource.Drawable.mr_ic_audiotrack_light = global::Booking.Droid.Resource.Drawable.mr_ic_audiotrack_light;
-			global::FAB.Droid.Resource.Drawable.mr_ic_cast_dark = global::Booking.Droid.Resource.Drawable.mr_ic_cast_dark;
-			global::FAB.Droid.Resource.Drawable.mr_ic_cast_light = global::Booking.Droid.Resource.Drawable.mr_ic_cast_light;
-			global::FAB.Droid.Resource.Drawable.mr_ic_close_dark = global::Booking.Droid.Resource.Drawable.mr_ic_close_dark;
-			global::FAB.Droid.Resource.Drawable.mr_ic_close_light = global::Booking.Droid.Resource.Drawable.mr_ic_close_light;
-			global::FAB.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::Booking.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
-			global::FAB.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::Booking.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
-			global::FAB.Droid.Resource.Drawable.mr_ic_media_route_mono_dark = global::Booking.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
-			global::FAB.Droid.Resource.Drawable.mr_ic_media_route_mono_light = global::Booking.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
-			global::FAB.Droid.Resource.Drawable.mr_ic_pause_dark = global::Booking.Droid.Resource.Drawable.mr_ic_pause_dark;
-			global::FAB.Droid.Resource.Drawable.mr_ic_pause_light = global::Booking.Droid.Resource.Drawable.mr_ic_pause_light;
-			global::FAB.Droid.Resource.Drawable.mr_ic_play_dark = global::Booking.Droid.Resource.Drawable.mr_ic_play_dark;
-			global::FAB.Droid.Resource.Drawable.mr_ic_play_light = global::Booking.Droid.Resource.Drawable.mr_ic_play_light;
-			global::FAB.Droid.Resource.Drawable.notification_template_icon_bg = global::Booking.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::FAB.Droid.Resource.Id.action0 = global::Booking.Droid.Resource.Id.action0;
-			global::FAB.Droid.Resource.Id.action_bar = global::Booking.Droid.Resource.Id.action_bar;
-			global::FAB.Droid.Resource.Id.action_bar_activity_content = global::Booking.Droid.Resource.Id.action_bar_activity_content;
-			global::FAB.Droid.Resource.Id.action_bar_container = global::Booking.Droid.Resource.Id.action_bar_container;
-			global::FAB.Droid.Resource.Id.action_bar_root = global::Booking.Droid.Resource.Id.action_bar_root;
-			global::FAB.Droid.Resource.Id.action_bar_spinner = global::Booking.Droid.Resource.Id.action_bar_spinner;
-			global::FAB.Droid.Resource.Id.action_bar_subtitle = global::Booking.Droid.Resource.Id.action_bar_subtitle;
-			global::FAB.Droid.Resource.Id.action_bar_title = global::Booking.Droid.Resource.Id.action_bar_title;
-			global::FAB.Droid.Resource.Id.action_context_bar = global::Booking.Droid.Resource.Id.action_context_bar;
-			global::FAB.Droid.Resource.Id.action_divider = global::Booking.Droid.Resource.Id.action_divider;
-			global::FAB.Droid.Resource.Id.action_menu_divider = global::Booking.Droid.Resource.Id.action_menu_divider;
-			global::FAB.Droid.Resource.Id.action_menu_presenter = global::Booking.Droid.Resource.Id.action_menu_presenter;
-			global::FAB.Droid.Resource.Id.action_mode_bar = global::Booking.Droid.Resource.Id.action_mode_bar;
-			global::FAB.Droid.Resource.Id.action_mode_bar_stub = global::Booking.Droid.Resource.Id.action_mode_bar_stub;
-			global::FAB.Droid.Resource.Id.action_mode_close_button = global::Booking.Droid.Resource.Id.action_mode_close_button;
-			global::FAB.Droid.Resource.Id.activity_chooser_view_content = global::Booking.Droid.Resource.Id.activity_chooser_view_content;
-			global::FAB.Droid.Resource.Id.alertTitle = global::Booking.Droid.Resource.Id.alertTitle;
-			global::FAB.Droid.Resource.Id.always = global::Booking.Droid.Resource.Id.always;
-			global::FAB.Droid.Resource.Id.beginning = global::Booking.Droid.Resource.Id.beginning;
-			global::FAB.Droid.Resource.Id.bottom = global::Booking.Droid.Resource.Id.bottom;
-			global::FAB.Droid.Resource.Id.buttonPanel = global::Booking.Droid.Resource.Id.buttonPanel;
-			global::FAB.Droid.Resource.Id.cancel_action = global::Booking.Droid.Resource.Id.cancel_action;
-			global::FAB.Droid.Resource.Id.center = global::Booking.Droid.Resource.Id.center;
-			global::FAB.Droid.Resource.Id.center_horizontal = global::Booking.Droid.Resource.Id.center_horizontal;
-			global::FAB.Droid.Resource.Id.center_vertical = global::Booking.Droid.Resource.Id.center_vertical;
-			global::FAB.Droid.Resource.Id.checkbox = global::Booking.Droid.Resource.Id.checkbox;
-			global::FAB.Droid.Resource.Id.chronometer = global::Booking.Droid.Resource.Id.chronometer;
-			global::FAB.Droid.Resource.Id.clip_horizontal = global::Booking.Droid.Resource.Id.clip_horizontal;
-			global::FAB.Droid.Resource.Id.clip_vertical = global::Booking.Droid.Resource.Id.clip_vertical;
-			global::FAB.Droid.Resource.Id.collapseActionView = global::Booking.Droid.Resource.Id.collapseActionView;
-			global::FAB.Droid.Resource.Id.contentPanel = global::Booking.Droid.Resource.Id.contentPanel;
-			global::FAB.Droid.Resource.Id.custom = global::Booking.Droid.Resource.Id.custom;
-			global::FAB.Droid.Resource.Id.customPanel = global::Booking.Droid.Resource.Id.customPanel;
-			global::FAB.Droid.Resource.Id.decor_content_parent = global::Booking.Droid.Resource.Id.decor_content_parent;
-			global::FAB.Droid.Resource.Id.default_activity_button = global::Booking.Droid.Resource.Id.default_activity_button;
-			global::FAB.Droid.Resource.Id.design_bottom_sheet = global::Booking.Droid.Resource.Id.design_bottom_sheet;
-			global::FAB.Droid.Resource.Id.design_menu_item_action_area = global::Booking.Droid.Resource.Id.design_menu_item_action_area;
-			global::FAB.Droid.Resource.Id.design_menu_item_action_area_stub = global::Booking.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::FAB.Droid.Resource.Id.design_menu_item_text = global::Booking.Droid.Resource.Id.design_menu_item_text;
-			global::FAB.Droid.Resource.Id.design_navigation_view = global::Booking.Droid.Resource.Id.design_navigation_view;
-			global::FAB.Droid.Resource.Id.disableHome = global::Booking.Droid.Resource.Id.disableHome;
-			global::FAB.Droid.Resource.Id.edit_query = global::Booking.Droid.Resource.Id.edit_query;
-			global::FAB.Droid.Resource.Id.end = global::Booking.Droid.Resource.Id.end;
-			global::FAB.Droid.Resource.Id.end_padder = global::Booking.Droid.Resource.Id.end_padder;
-			global::FAB.Droid.Resource.Id.enterAlways = global::Booking.Droid.Resource.Id.enterAlways;
-			global::FAB.Droid.Resource.Id.enterAlwaysCollapsed = global::Booking.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::FAB.Droid.Resource.Id.exitUntilCollapsed = global::Booking.Droid.Resource.Id.exitUntilCollapsed;
-			global::FAB.Droid.Resource.Id.expand_activities_button = global::Booking.Droid.Resource.Id.expand_activities_button;
-			global::FAB.Droid.Resource.Id.expanded_menu = global::Booking.Droid.Resource.Id.expanded_menu;
-			global::FAB.Droid.Resource.Id.fill = global::Booking.Droid.Resource.Id.fill;
-			global::FAB.Droid.Resource.Id.fill_horizontal = global::Booking.Droid.Resource.Id.fill_horizontal;
-			global::FAB.Droid.Resource.Id.fill_vertical = global::Booking.Droid.Resource.Id.fill_vertical;
-			global::FAB.Droid.Resource.Id.@fixed = global::Booking.Droid.Resource.Id.@fixed;
-			global::FAB.Droid.Resource.Id.home = global::Booking.Droid.Resource.Id.home;
-			global::FAB.Droid.Resource.Id.homeAsUp = global::Booking.Droid.Resource.Id.homeAsUp;
-			global::FAB.Droid.Resource.Id.icon = global::Booking.Droid.Resource.Id.icon;
-			global::FAB.Droid.Resource.Id.ifRoom = global::Booking.Droid.Resource.Id.ifRoom;
-			global::FAB.Droid.Resource.Id.image = global::Booking.Droid.Resource.Id.image;
-			global::FAB.Droid.Resource.Id.info = global::Booking.Droid.Resource.Id.info;
-			global::FAB.Droid.Resource.Id.item_touch_helper_previous_elevation = global::Booking.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::FAB.Droid.Resource.Id.left = global::Booking.Droid.Resource.Id.left;
-			global::FAB.Droid.Resource.Id.line1 = global::Booking.Droid.Resource.Id.line1;
-			global::FAB.Droid.Resource.Id.line3 = global::Booking.Droid.Resource.Id.line3;
-			global::FAB.Droid.Resource.Id.listMode = global::Booking.Droid.Resource.Id.listMode;
-			global::FAB.Droid.Resource.Id.list_item = global::Booking.Droid.Resource.Id.list_item;
-			global::FAB.Droid.Resource.Id.media_actions = global::Booking.Droid.Resource.Id.media_actions;
-			global::FAB.Droid.Resource.Id.middle = global::Booking.Droid.Resource.Id.middle;
-			global::FAB.Droid.Resource.Id.mini = global::Booking.Droid.Resource.Id.mini;
-			global::FAB.Droid.Resource.Id.mr_art = global::Booking.Droid.Resource.Id.mr_art;
-			global::FAB.Droid.Resource.Id.mr_chooser_list = global::Booking.Droid.Resource.Id.mr_chooser_list;
-			global::FAB.Droid.Resource.Id.mr_chooser_route_desc = global::Booking.Droid.Resource.Id.mr_chooser_route_desc;
-			global::FAB.Droid.Resource.Id.mr_chooser_route_icon = global::Booking.Droid.Resource.Id.mr_chooser_route_icon;
-			global::FAB.Droid.Resource.Id.mr_chooser_route_name = global::Booking.Droid.Resource.Id.mr_chooser_route_name;
-			global::FAB.Droid.Resource.Id.mr_close = global::Booking.Droid.Resource.Id.mr_close;
-			global::FAB.Droid.Resource.Id.mr_control_divider = global::Booking.Droid.Resource.Id.mr_control_divider;
-			global::FAB.Droid.Resource.Id.mr_control_play_pause = global::Booking.Droid.Resource.Id.mr_control_play_pause;
-			global::FAB.Droid.Resource.Id.mr_control_subtitle = global::Booking.Droid.Resource.Id.mr_control_subtitle;
-			global::FAB.Droid.Resource.Id.mr_control_title = global::Booking.Droid.Resource.Id.mr_control_title;
-			global::FAB.Droid.Resource.Id.mr_control_title_container = global::Booking.Droid.Resource.Id.mr_control_title_container;
-			global::FAB.Droid.Resource.Id.mr_custom_control = global::Booking.Droid.Resource.Id.mr_custom_control;
-			global::FAB.Droid.Resource.Id.mr_default_control = global::Booking.Droid.Resource.Id.mr_default_control;
-			global::FAB.Droid.Resource.Id.mr_dialog_area = global::Booking.Droid.Resource.Id.mr_dialog_area;
-			global::FAB.Droid.Resource.Id.mr_expandable_area = global::Booking.Droid.Resource.Id.mr_expandable_area;
-			global::FAB.Droid.Resource.Id.mr_group_expand_collapse = global::Booking.Droid.Resource.Id.mr_group_expand_collapse;
-			global::FAB.Droid.Resource.Id.mr_media_main_control = global::Booking.Droid.Resource.Id.mr_media_main_control;
-			global::FAB.Droid.Resource.Id.mr_name = global::Booking.Droid.Resource.Id.mr_name;
-			global::FAB.Droid.Resource.Id.mr_playback_control = global::Booking.Droid.Resource.Id.mr_playback_control;
-			global::FAB.Droid.Resource.Id.mr_title_bar = global::Booking.Droid.Resource.Id.mr_title_bar;
-			global::FAB.Droid.Resource.Id.mr_volume_control = global::Booking.Droid.Resource.Id.mr_volume_control;
-			global::FAB.Droid.Resource.Id.mr_volume_group_list = global::Booking.Droid.Resource.Id.mr_volume_group_list;
-			global::FAB.Droid.Resource.Id.mr_volume_item_icon = global::Booking.Droid.Resource.Id.mr_volume_item_icon;
-			global::FAB.Droid.Resource.Id.mr_volume_slider = global::Booking.Droid.Resource.Id.mr_volume_slider;
-			global::FAB.Droid.Resource.Id.multiply = global::Booking.Droid.Resource.Id.multiply;
-			global::FAB.Droid.Resource.Id.navigation_header_container = global::Booking.Droid.Resource.Id.navigation_header_container;
-			global::FAB.Droid.Resource.Id.never = global::Booking.Droid.Resource.Id.never;
-			global::FAB.Droid.Resource.Id.none = global::Booking.Droid.Resource.Id.none;
-			global::FAB.Droid.Resource.Id.normal = global::Booking.Droid.Resource.Id.normal;
-			global::FAB.Droid.Resource.Id.parallax = global::Booking.Droid.Resource.Id.parallax;
-			global::FAB.Droid.Resource.Id.parentPanel = global::Booking.Droid.Resource.Id.parentPanel;
-			global::FAB.Droid.Resource.Id.pin = global::Booking.Droid.Resource.Id.pin;
-			global::FAB.Droid.Resource.Id.progress_circular = global::Booking.Droid.Resource.Id.progress_circular;
-			global::FAB.Droid.Resource.Id.progress_horizontal = global::Booking.Droid.Resource.Id.progress_horizontal;
-			global::FAB.Droid.Resource.Id.radio = global::Booking.Droid.Resource.Id.radio;
-			global::FAB.Droid.Resource.Id.right = global::Booking.Droid.Resource.Id.right;
-			global::FAB.Droid.Resource.Id.screen = global::Booking.Droid.Resource.Id.screen;
-			global::FAB.Droid.Resource.Id.scroll = global::Booking.Droid.Resource.Id.scroll;
-			global::FAB.Droid.Resource.Id.scrollIndicatorDown = global::Booking.Droid.Resource.Id.scrollIndicatorDown;
-			global::FAB.Droid.Resource.Id.scrollIndicatorUp = global::Booking.Droid.Resource.Id.scrollIndicatorUp;
-			global::FAB.Droid.Resource.Id.scrollView = global::Booking.Droid.Resource.Id.scrollView;
-			global::FAB.Droid.Resource.Id.scrollable = global::Booking.Droid.Resource.Id.scrollable;
-			global::FAB.Droid.Resource.Id.search_badge = global::Booking.Droid.Resource.Id.search_badge;
-			global::FAB.Droid.Resource.Id.search_bar = global::Booking.Droid.Resource.Id.search_bar;
-			global::FAB.Droid.Resource.Id.search_button = global::Booking.Droid.Resource.Id.search_button;
-			global::FAB.Droid.Resource.Id.search_close_btn = global::Booking.Droid.Resource.Id.search_close_btn;
-			global::FAB.Droid.Resource.Id.search_edit_frame = global::Booking.Droid.Resource.Id.search_edit_frame;
-			global::FAB.Droid.Resource.Id.search_go_btn = global::Booking.Droid.Resource.Id.search_go_btn;
-			global::FAB.Droid.Resource.Id.search_mag_icon = global::Booking.Droid.Resource.Id.search_mag_icon;
-			global::FAB.Droid.Resource.Id.search_plate = global::Booking.Droid.Resource.Id.search_plate;
-			global::FAB.Droid.Resource.Id.search_src_text = global::Booking.Droid.Resource.Id.search_src_text;
-			global::FAB.Droid.Resource.Id.search_voice_btn = global::Booking.Droid.Resource.Id.search_voice_btn;
-			global::FAB.Droid.Resource.Id.select_dialog_listview = global::Booking.Droid.Resource.Id.select_dialog_listview;
-			global::FAB.Droid.Resource.Id.shortcut = global::Booking.Droid.Resource.Id.shortcut;
-			global::FAB.Droid.Resource.Id.showCustom = global::Booking.Droid.Resource.Id.showCustom;
-			global::FAB.Droid.Resource.Id.showHome = global::Booking.Droid.Resource.Id.showHome;
-			global::FAB.Droid.Resource.Id.showTitle = global::Booking.Droid.Resource.Id.showTitle;
-			global::FAB.Droid.Resource.Id.snackbar_action = global::Booking.Droid.Resource.Id.snackbar_action;
-			global::FAB.Droid.Resource.Id.snackbar_text = global::Booking.Droid.Resource.Id.snackbar_text;
-			global::FAB.Droid.Resource.Id.snap = global::Booking.Droid.Resource.Id.snap;
-			global::FAB.Droid.Resource.Id.spacer = global::Booking.Droid.Resource.Id.spacer;
-			global::FAB.Droid.Resource.Id.split_action_bar = global::Booking.Droid.Resource.Id.split_action_bar;
-			global::FAB.Droid.Resource.Id.src_atop = global::Booking.Droid.Resource.Id.src_atop;
-			global::FAB.Droid.Resource.Id.src_in = global::Booking.Droid.Resource.Id.src_in;
-			global::FAB.Droid.Resource.Id.src_over = global::Booking.Droid.Resource.Id.src_over;
-			global::FAB.Droid.Resource.Id.start = global::Booking.Droid.Resource.Id.start;
-			global::FAB.Droid.Resource.Id.status_bar_latest_event_content = global::Booking.Droid.Resource.Id.status_bar_latest_event_content;
-			global::FAB.Droid.Resource.Id.submit_area = global::Booking.Droid.Resource.Id.submit_area;
-			global::FAB.Droid.Resource.Id.tabMode = global::Booking.Droid.Resource.Id.tabMode;
-			global::FAB.Droid.Resource.Id.text = global::Booking.Droid.Resource.Id.text;
-			global::FAB.Droid.Resource.Id.text2 = global::Booking.Droid.Resource.Id.text2;
-			global::FAB.Droid.Resource.Id.textSpacerNoButtons = global::Booking.Droid.Resource.Id.textSpacerNoButtons;
-			global::FAB.Droid.Resource.Id.time = global::Booking.Droid.Resource.Id.time;
-			global::FAB.Droid.Resource.Id.title = global::Booking.Droid.Resource.Id.title;
-			global::FAB.Droid.Resource.Id.title_template = global::Booking.Droid.Resource.Id.title_template;
-			global::FAB.Droid.Resource.Id.top = global::Booking.Droid.Resource.Id.top;
-			global::FAB.Droid.Resource.Id.topPanel = global::Booking.Droid.Resource.Id.topPanel;
-			global::FAB.Droid.Resource.Id.touch_outside = global::Booking.Droid.Resource.Id.touch_outside;
-			global::FAB.Droid.Resource.Id.up = global::Booking.Droid.Resource.Id.up;
-			global::FAB.Droid.Resource.Id.useLogo = global::Booking.Droid.Resource.Id.useLogo;
-			global::FAB.Droid.Resource.Id.view_offset_helper = global::Booking.Droid.Resource.Id.view_offset_helper;
-			global::FAB.Droid.Resource.Id.volume_item_container = global::Booking.Droid.Resource.Id.volume_item_container;
-			global::FAB.Droid.Resource.Id.withText = global::Booking.Droid.Resource.Id.withText;
-			global::FAB.Droid.Resource.Id.wrap_content = global::Booking.Droid.Resource.Id.wrap_content;
-			global::FAB.Droid.Resource.Integer.abc_config_activityDefaultDur = global::Booking.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::FAB.Droid.Resource.Integer.abc_config_activityShortDur = global::Booking.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::FAB.Droid.Resource.Integer.abc_max_action_buttons = global::Booking.Droid.Resource.Integer.abc_max_action_buttons;
-			global::FAB.Droid.Resource.Integer.bottom_sheet_slide_duration = global::Booking.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::FAB.Droid.Resource.Integer.cancel_button_image_alpha = global::Booking.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::FAB.Droid.Resource.Integer.design_snackbar_text_max_lines = global::Booking.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::FAB.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::Booking.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::FAB.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::Booking.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::FAB.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::Booking.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::FAB.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::Booking.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::FAB.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::Booking.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::FAB.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::Booking.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::FAB.Droid.Resource.Layout.abc_action_bar_title_item = global::Booking.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::FAB.Droid.Resource.Layout.abc_action_bar_up_container = global::Booking.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::FAB.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout = global::Booking.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
-			global::FAB.Droid.Resource.Layout.abc_action_menu_item_layout = global::Booking.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::FAB.Droid.Resource.Layout.abc_action_menu_layout = global::Booking.Droid.Resource.Layout.abc_action_menu_layout;
-			global::FAB.Droid.Resource.Layout.abc_action_mode_bar = global::Booking.Droid.Resource.Layout.abc_action_mode_bar;
-			global::FAB.Droid.Resource.Layout.abc_action_mode_close_item_material = global::Booking.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::FAB.Droid.Resource.Layout.abc_activity_chooser_view = global::Booking.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::FAB.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::Booking.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::FAB.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::Booking.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::FAB.Droid.Resource.Layout.abc_alert_dialog_material = global::Booking.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::FAB.Droid.Resource.Layout.abc_dialog_title_material = global::Booking.Droid.Resource.Layout.abc_dialog_title_material;
-			global::FAB.Droid.Resource.Layout.abc_expanded_menu_layout = global::Booking.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::FAB.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::Booking.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::FAB.Droid.Resource.Layout.abc_list_menu_item_icon = global::Booking.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::FAB.Droid.Resource.Layout.abc_list_menu_item_layout = global::Booking.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::FAB.Droid.Resource.Layout.abc_list_menu_item_radio = global::Booking.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::FAB.Droid.Resource.Layout.abc_popup_menu_item_layout = global::Booking.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::FAB.Droid.Resource.Layout.abc_screen_content_include = global::Booking.Droid.Resource.Layout.abc_screen_content_include;
-			global::FAB.Droid.Resource.Layout.abc_screen_simple = global::Booking.Droid.Resource.Layout.abc_screen_simple;
-			global::FAB.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Booking.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::FAB.Droid.Resource.Layout.abc_screen_toolbar = global::Booking.Droid.Resource.Layout.abc_screen_toolbar;
-			global::FAB.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Booking.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::FAB.Droid.Resource.Layout.abc_search_view = global::Booking.Droid.Resource.Layout.abc_search_view;
-			global::FAB.Droid.Resource.Layout.abc_select_dialog_material = global::Booking.Droid.Resource.Layout.abc_select_dialog_material;
-			global::FAB.Droid.Resource.Layout.design_bottom_sheet_dialog = global::Booking.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::FAB.Droid.Resource.Layout.design_layout_snackbar = global::Booking.Droid.Resource.Layout.design_layout_snackbar;
-			global::FAB.Droid.Resource.Layout.design_layout_snackbar_include = global::Booking.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::FAB.Droid.Resource.Layout.design_layout_tab_icon = global::Booking.Droid.Resource.Layout.design_layout_tab_icon;
-			global::FAB.Droid.Resource.Layout.design_layout_tab_text = global::Booking.Droid.Resource.Layout.design_layout_tab_text;
-			global::FAB.Droid.Resource.Layout.design_menu_item_action_area = global::Booking.Droid.Resource.Layout.design_menu_item_action_area;
-			global::FAB.Droid.Resource.Layout.design_navigation_item = global::Booking.Droid.Resource.Layout.design_navigation_item;
-			global::FAB.Droid.Resource.Layout.design_navigation_item_header = global::Booking.Droid.Resource.Layout.design_navigation_item_header;
-			global::FAB.Droid.Resource.Layout.design_navigation_item_separator = global::Booking.Droid.Resource.Layout.design_navigation_item_separator;
-			global::FAB.Droid.Resource.Layout.design_navigation_item_subheader = global::Booking.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::FAB.Droid.Resource.Layout.design_navigation_menu = global::Booking.Droid.Resource.Layout.design_navigation_menu;
-			global::FAB.Droid.Resource.Layout.design_navigation_menu_item = global::Booking.Droid.Resource.Layout.design_navigation_menu_item;
-			global::FAB.Droid.Resource.Layout.mini_fab = global::Booking.Droid.Resource.Layout.mini_fab;
-			global::FAB.Droid.Resource.Layout.mr_chooser_dialog = global::Booking.Droid.Resource.Layout.mr_chooser_dialog;
-			global::FAB.Droid.Resource.Layout.mr_chooser_list_item = global::Booking.Droid.Resource.Layout.mr_chooser_list_item;
-			global::FAB.Droid.Resource.Layout.mr_controller_material_dialog_b = global::Booking.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::FAB.Droid.Resource.Layout.mr_controller_volume_item = global::Booking.Droid.Resource.Layout.mr_controller_volume_item;
-			global::FAB.Droid.Resource.Layout.mr_playback_control = global::Booking.Droid.Resource.Layout.mr_playback_control;
-			global::FAB.Droid.Resource.Layout.mr_volume_control = global::Booking.Droid.Resource.Layout.mr_volume_control;
-			global::FAB.Droid.Resource.Layout.normal_fab = global::Booking.Droid.Resource.Layout.normal_fab;
-			global::FAB.Droid.Resource.Layout.notification_media_action = global::Booking.Droid.Resource.Layout.notification_media_action;
-			global::FAB.Droid.Resource.Layout.notification_media_cancel_action = global::Booking.Droid.Resource.Layout.notification_media_cancel_action;
-			global::FAB.Droid.Resource.Layout.notification_template_big_media = global::Booking.Droid.Resource.Layout.notification_template_big_media;
-			global::FAB.Droid.Resource.Layout.notification_template_big_media_narrow = global::Booking.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::FAB.Droid.Resource.Layout.notification_template_lines = global::Booking.Droid.Resource.Layout.notification_template_lines;
-			global::FAB.Droid.Resource.Layout.notification_template_media = global::Booking.Droid.Resource.Layout.notification_template_media;
-			global::FAB.Droid.Resource.Layout.notification_template_part_chronometer = global::Booking.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::FAB.Droid.Resource.Layout.notification_template_part_time = global::Booking.Droid.Resource.Layout.notification_template_part_time;
-			global::FAB.Droid.Resource.Layout.select_dialog_item_material = global::Booking.Droid.Resource.Layout.select_dialog_item_material;
-			global::FAB.Droid.Resource.Layout.select_dialog_multichoice_material = global::Booking.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::FAB.Droid.Resource.Layout.select_dialog_singlechoice_material = global::Booking.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::FAB.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::Booking.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::FAB.Droid.Resource.String.abc_action_bar_home_description = global::Booking.Droid.Resource.String.abc_action_bar_home_description;
-			global::FAB.Droid.Resource.String.abc_action_bar_home_description_format = global::Booking.Droid.Resource.String.abc_action_bar_home_description_format;
-			global::FAB.Droid.Resource.String.abc_action_bar_home_subtitle_description_format = global::Booking.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
-			global::FAB.Droid.Resource.String.abc_action_bar_up_description = global::Booking.Droid.Resource.String.abc_action_bar_up_description;
-			global::FAB.Droid.Resource.String.abc_action_menu_overflow_description = global::Booking.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::FAB.Droid.Resource.String.abc_action_mode_done = global::Booking.Droid.Resource.String.abc_action_mode_done;
-			global::FAB.Droid.Resource.String.abc_activity_chooser_view_see_all = global::Booking.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::FAB.Droid.Resource.String.abc_activitychooserview_choose_application = global::Booking.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::FAB.Droid.Resource.String.abc_capital_off = global::Booking.Droid.Resource.String.abc_capital_off;
-			global::FAB.Droid.Resource.String.abc_capital_on = global::Booking.Droid.Resource.String.abc_capital_on;
-			global::FAB.Droid.Resource.String.abc_search_hint = global::Booking.Droid.Resource.String.abc_search_hint;
-			global::FAB.Droid.Resource.String.abc_searchview_description_clear = global::Booking.Droid.Resource.String.abc_searchview_description_clear;
-			global::FAB.Droid.Resource.String.abc_searchview_description_query = global::Booking.Droid.Resource.String.abc_searchview_description_query;
-			global::FAB.Droid.Resource.String.abc_searchview_description_search = global::Booking.Droid.Resource.String.abc_searchview_description_search;
-			global::FAB.Droid.Resource.String.abc_searchview_description_submit = global::Booking.Droid.Resource.String.abc_searchview_description_submit;
-			global::FAB.Droid.Resource.String.abc_searchview_description_voice = global::Booking.Droid.Resource.String.abc_searchview_description_voice;
-			global::FAB.Droid.Resource.String.abc_shareactionprovider_share_with = global::Booking.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::FAB.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::Booking.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::FAB.Droid.Resource.String.abc_toolbar_collapse_description = global::Booking.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::FAB.Droid.Resource.String.appbar_scrolling_view_behavior = global::Booking.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::FAB.Droid.Resource.String.bottom_sheet_behavior = global::Booking.Droid.Resource.String.bottom_sheet_behavior;
-			global::FAB.Droid.Resource.String.character_counter_pattern = global::Booking.Droid.Resource.String.character_counter_pattern;
-			global::FAB.Droid.Resource.String.define_FloatingActionButton = global::Booking.Droid.Resource.String.define_FloatingActionButton;
-			global::FAB.Droid.Resource.String.library_FloatingActionButton_author = global::Booking.Droid.Resource.String.library_FloatingActionButton_author;
-			global::FAB.Droid.Resource.String.library_FloatingActionButton_authorWebsite = global::Booking.Droid.Resource.String.library_FloatingActionButton_authorWebsite;
-			global::FAB.Droid.Resource.String.library_FloatingActionButton_isOpenSource = global::Booking.Droid.Resource.String.library_FloatingActionButton_isOpenSource;
-			global::FAB.Droid.Resource.String.library_FloatingActionButton_libraryDescription = global::Booking.Droid.Resource.String.library_FloatingActionButton_libraryDescription;
-			global::FAB.Droid.Resource.String.library_FloatingActionButton_libraryName = global::Booking.Droid.Resource.String.library_FloatingActionButton_libraryName;
-			global::FAB.Droid.Resource.String.library_FloatingActionButton_libraryVersion = global::Booking.Droid.Resource.String.library_FloatingActionButton_libraryVersion;
-			global::FAB.Droid.Resource.String.library_FloatingActionButton_libraryWebsite = global::Booking.Droid.Resource.String.library_FloatingActionButton_libraryWebsite;
-			global::FAB.Droid.Resource.String.library_FloatingActionButton_licenseId = global::Booking.Droid.Resource.String.library_FloatingActionButton_licenseId;
-			global::FAB.Droid.Resource.String.library_FloatingActionButton_repositoryLink = global::Booking.Droid.Resource.String.library_FloatingActionButton_repositoryLink;
-			global::FAB.Droid.Resource.String.library_name = global::Booking.Droid.Resource.String.library_name;
-			global::FAB.Droid.Resource.String.mr_button_content_description = global::Booking.Droid.Resource.String.mr_button_content_description;
-			global::FAB.Droid.Resource.String.mr_chooser_searching = global::Booking.Droid.Resource.String.mr_chooser_searching;
-			global::FAB.Droid.Resource.String.mr_chooser_title = global::Booking.Droid.Resource.String.mr_chooser_title;
-			global::FAB.Droid.Resource.String.mr_controller_casting_screen = global::Booking.Droid.Resource.String.mr_controller_casting_screen;
-			global::FAB.Droid.Resource.String.mr_controller_close_description = global::Booking.Droid.Resource.String.mr_controller_close_description;
-			global::FAB.Droid.Resource.String.mr_controller_collapse_group = global::Booking.Droid.Resource.String.mr_controller_collapse_group;
-			global::FAB.Droid.Resource.String.mr_controller_disconnect = global::Booking.Droid.Resource.String.mr_controller_disconnect;
-			global::FAB.Droid.Resource.String.mr_controller_expand_group = global::Booking.Droid.Resource.String.mr_controller_expand_group;
-			global::FAB.Droid.Resource.String.mr_controller_no_info_available = global::Booking.Droid.Resource.String.mr_controller_no_info_available;
-			global::FAB.Droid.Resource.String.mr_controller_no_media_selected = global::Booking.Droid.Resource.String.mr_controller_no_media_selected;
-			global::FAB.Droid.Resource.String.mr_controller_pause = global::Booking.Droid.Resource.String.mr_controller_pause;
-			global::FAB.Droid.Resource.String.mr_controller_play = global::Booking.Droid.Resource.String.mr_controller_play;
-			global::FAB.Droid.Resource.String.mr_controller_stop = global::Booking.Droid.Resource.String.mr_controller_stop;
-			global::FAB.Droid.Resource.String.mr_system_route_name = global::Booking.Droid.Resource.String.mr_system_route_name;
-			global::FAB.Droid.Resource.String.mr_user_route_category_name = global::Booking.Droid.Resource.String.mr_user_route_category_name;
-			global::FAB.Droid.Resource.String.status_bar_notification_info_overflow = global::Booking.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::FAB.Droid.Resource.Style.AlertDialog_AppCompat = global::Booking.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::FAB.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::Booking.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Animation_AppCompat_Dialog = global::Booking.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::FAB.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::Booking.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::FAB.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::Booking.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::FAB.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::Booking.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Booking.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::Booking.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::FAB.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Booking.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::FAB.Droid.Resource.Style.Base_CardView = global::Booking.Droid.Resource.Style.Base_CardView;
-			global::FAB.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Booking.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Booking.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Booking.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Booking.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Booking.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::FAB.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Booking.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::FAB.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Booking.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::Booking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Booking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Booking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Booking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::FAB.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Booking.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Booking.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::FAB.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Booking.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::FAB.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Booking.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::FAB.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Booking.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::FAB.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::Booking.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Booking.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::FAB.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Booking.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Booking.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::FAB.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::Booking.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Booking.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::Booking.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Booking.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::Booking.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::FAB.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Booking.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::FAB.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Booking.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Booking.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::FAB.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Booking.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::FAB.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Booking.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::FAB.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Booking.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::FAB.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::Booking.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::FAB.Droid.Resource.Style.CardView = global::Booking.Droid.Resource.Style.CardView;
-			global::FAB.Droid.Resource.Style.CardView_Dark = global::Booking.Droid.Resource.Style.CardView_Dark;
-			global::FAB.Droid.Resource.Style.CardView_Light = global::Booking.Droid.Resource.Style.CardView_Light;
-			global::FAB.Droid.Resource.Style.Platform_AppCompat = global::Booking.Droid.Resource.Style.Platform_AppCompat;
-			global::FAB.Droid.Resource.Style.Platform_AppCompat_Light = global::Booking.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Booking.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::FAB.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Booking.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::FAB.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Booking.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Platform_V11_AppCompat = global::Booking.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::FAB.Droid.Resource.Style.Platform_V11_AppCompat_Light = global::Booking.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Platform_V14_AppCompat = global::Booking.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::FAB.Droid.Resource.Style.Platform_V14_AppCompat_Light = global::Booking.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Booking.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::FAB.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Booking.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::FAB.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Booking.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::FAB.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::Booking.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::FAB.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::Booking.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::FAB.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Booking.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::FAB.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Booking.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::FAB.Droid.Resource.Style.TextAppearance_Design_Counter = global::Booking.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::FAB.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::Booking.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::FAB.Droid.Resource.Style.TextAppearance_Design_Error = global::Booking.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::FAB.Droid.Resource.Style.TextAppearance_Design_Hint = global::Booking.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::FAB.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Booking.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::FAB.Droid.Resource.Style.TextAppearance_Design_Tab = global::Booking.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent = global::Booking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
-			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::Booking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
-			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::Booking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
-			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::Booking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
-			global::FAB.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::Booking.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
-			global::FAB.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Booking.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::FAB.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Booking.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::FAB.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Booking.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat = global::Booking.Droid.Resource.Style.Theme_AppCompat;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::Booking.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight = global::Booking.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::Booking.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::Booking.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::Booking.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::Booking.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::Booking.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::Booking.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Dialog = global::Booking.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Booking.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Booking.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Booking.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light = global::Booking.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Booking.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::Booking.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Booking.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Booking.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Booking.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Booking.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::FAB.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::Booking.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::FAB.Droid.Resource.Style.Theme_Design = global::Booking.Droid.Resource.Style.Theme_Design;
-			global::FAB.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::Booking.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::FAB.Droid.Resource.Style.Theme_Design_Light = global::Booking.Droid.Resource.Style.Theme_Design_Light;
-			global::FAB.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::Booking.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::FAB.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::Booking.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::FAB.Droid.Resource.Style.Theme_Design_NoActionBar = global::Booking.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::FAB.Droid.Resource.Style.Theme_MediaRouter = global::Booking.Droid.Resource.Style.Theme_MediaRouter;
-			global::FAB.Droid.Resource.Style.Theme_MediaRouter_Light = global::Booking.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::FAB.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::Booking.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::FAB.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::Booking.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat = global::Booking.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Booking.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Booking.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Booking.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::FAB.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::Booking.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Booking.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Booking.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button = global::Booking.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::Booking.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Booking.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Booking.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::Booking.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::Booking.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Booking.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Booking.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Booking.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Booking.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Booking.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Booking.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_EditText = global::Booking.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::Booking.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Booking.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ListView = global::Booking.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Booking.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::Booking.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::Booking.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Booking.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::Booking.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Booking.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::Booking.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::Booking.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_SearchView = global::Booking.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Spinner = global::Booking.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Booking.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Booking.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Booking.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Booking.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::Booking.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::FAB.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Booking.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::FAB.Droid.Resource.Style.Widget_Design_AppBarLayout = global::Booking.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::FAB.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::Booking.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::FAB.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::Booking.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::FAB.Droid.Resource.Style.Widget_Design_CoordinatorLayout = global::Booking.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::FAB.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::Booking.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::FAB.Droid.Resource.Style.Widget_Design_NavigationView = global::Booking.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::FAB.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Booking.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::FAB.Droid.Resource.Style.Widget_Design_Snackbar = global::Booking.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::FAB.Droid.Resource.Style.Widget_Design_TabLayout = global::Booking.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::FAB.Droid.Resource.Style.Widget_Design_TextInputLayout = global::Booking.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ChooserText;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Dark;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Primary_Light;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Dark;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ChooserText_Secondary_Light;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Dark;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Primary_Light;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Dark;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Secondary_Light;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Dark;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light = global::Booking.Droid.Resource.Style.Widget_MediaRouter_ControllerText_Title_Light;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Booking.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::FAB.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Booking.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::FAB.Droid.Resource.Styleable.ActionBar = global::Booking.Droid.Resource.Styleable.ActionBar;
-			global::FAB.Droid.Resource.Styleable.ActionBar_background = global::Booking.Droid.Resource.Styleable.ActionBar_background;
-			global::FAB.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::Booking.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::FAB.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::Booking.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::FAB.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::Booking.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::FAB.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::Booking.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::FAB.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::Booking.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::FAB.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::Booking.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::FAB.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::Booking.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::FAB.Droid.Resource.Styleable.ActionBar_displayOptions = global::Booking.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::FAB.Droid.Resource.Styleable.ActionBar_divider = global::Booking.Droid.Resource.Styleable.ActionBar_divider;
-			global::FAB.Droid.Resource.Styleable.ActionBar_elevation = global::Booking.Droid.Resource.Styleable.ActionBar_elevation;
-			global::FAB.Droid.Resource.Styleable.ActionBar_height = global::Booking.Droid.Resource.Styleable.ActionBar_height;
-			global::FAB.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::Booking.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::FAB.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Booking.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::FAB.Droid.Resource.Styleable.ActionBar_homeLayout = global::Booking.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::FAB.Droid.Resource.Styleable.ActionBar_icon = global::Booking.Droid.Resource.Styleable.ActionBar_icon;
-			global::FAB.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Booking.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::FAB.Droid.Resource.Styleable.ActionBar_itemPadding = global::Booking.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::FAB.Droid.Resource.Styleable.ActionBar_logo = global::Booking.Droid.Resource.Styleable.ActionBar_logo;
-			global::FAB.Droid.Resource.Styleable.ActionBar_navigationMode = global::Booking.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::FAB.Droid.Resource.Styleable.ActionBar_popupTheme = global::Booking.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::FAB.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::Booking.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::FAB.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::Booking.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::FAB.Droid.Resource.Styleable.ActionBar_subtitle = global::Booking.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::FAB.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::Booking.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::FAB.Droid.Resource.Styleable.ActionBar_title = global::Booking.Droid.Resource.Styleable.ActionBar_title;
-			global::FAB.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::Booking.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::FAB.Droid.Resource.Styleable.ActionBarLayout = global::Booking.Droid.Resource.Styleable.ActionBarLayout;
-			global::FAB.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Booking.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::FAB.Droid.Resource.Styleable.ActionMenuItemView = global::Booking.Droid.Resource.Styleable.ActionMenuItemView;
-			global::FAB.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Booking.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::FAB.Droid.Resource.Styleable.ActionMenuView = global::Booking.Droid.Resource.Styleable.ActionMenuView;
-			global::FAB.Droid.Resource.Styleable.ActionMode = global::Booking.Droid.Resource.Styleable.ActionMode;
-			global::FAB.Droid.Resource.Styleable.ActionMode_background = global::Booking.Droid.Resource.Styleable.ActionMode_background;
-			global::FAB.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::Booking.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::FAB.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::Booking.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::FAB.Droid.Resource.Styleable.ActionMode_height = global::Booking.Droid.Resource.Styleable.ActionMode_height;
-			global::FAB.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::Booking.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::FAB.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::Booking.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::FAB.Droid.Resource.Styleable.ActivityChooserView = global::Booking.Droid.Resource.Styleable.ActivityChooserView;
-			global::FAB.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Booking.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::FAB.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Booking.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::FAB.Droid.Resource.Styleable.AlertDialog = global::Booking.Droid.Resource.Styleable.AlertDialog;
-			global::FAB.Droid.Resource.Styleable.AlertDialog_android_layout = global::Booking.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::FAB.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Booking.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::FAB.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::Booking.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::FAB.Droid.Resource.Styleable.AlertDialog_listLayout = global::Booking.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::FAB.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Booking.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::FAB.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Booking.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::FAB.Droid.Resource.Styleable.AppBarLayout = global::Booking.Droid.Resource.Styleable.AppBarLayout;
-			global::FAB.Droid.Resource.Styleable.AppBarLayout_android_background = global::Booking.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::FAB.Droid.Resource.Styleable.AppBarLayout_elevation = global::Booking.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::FAB.Droid.Resource.Styleable.AppBarLayout_expanded = global::Booking.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::FAB.Droid.Resource.Styleable.AppBarLayout_LayoutParams = global::Booking.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
-			global::FAB.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::Booking.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
-			global::FAB.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::Booking.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
-			global::FAB.Droid.Resource.Styleable.AppCompatImageView = global::Booking.Droid.Resource.Styleable.AppCompatImageView;
-			global::FAB.Droid.Resource.Styleable.AppCompatImageView_android_src = global::Booking.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::FAB.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::Booking.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::FAB.Droid.Resource.Styleable.AppCompatTextView = global::Booking.Droid.Resource.Styleable.AppCompatTextView;
-			global::FAB.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Booking.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::FAB.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::Booking.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme = global::Booking.Droid.Resource.Styleable.AppCompatTheme;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::Booking.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::Booking.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::Booking.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::Booking.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::Booking.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::Booking.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::Booking.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::Booking.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::Booking.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::Booking.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::Booking.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::Booking.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::Booking.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::Booking.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::Booking.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::Booking.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::Booking.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::Booking.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::Booking.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::Booking.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::Booking.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::Booking.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::Booking.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::Booking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::Booking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::Booking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::Booking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::Booking.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::Booking.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::Booking.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::Booking.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::Booking.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::Booking.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::Booking.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::Booking.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::Booking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::Booking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::Booking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::Booking.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::Booking.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::Booking.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::FAB.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::Booking.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::FAB.Droid.Resource.Styleable.BottomSheetBehavior_Params = global::Booking.Droid.Resource.Styleable.BottomSheetBehavior_Params;
-			global::FAB.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable = global::Booking.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_hideable;
-			global::FAB.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight = global::Booking.Droid.Resource.Styleable.BottomSheetBehavior_Params_behavior_peekHeight;
-			global::FAB.Droid.Resource.Styleable.ButtonBarLayout = global::Booking.Droid.Resource.Styleable.ButtonBarLayout;
-			global::FAB.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::Booking.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::FAB.Droid.Resource.Styleable.CardView = global::Booking.Droid.Resource.Styleable.CardView;
-			global::FAB.Droid.Resource.Styleable.CardView_android_minHeight = global::Booking.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::FAB.Droid.Resource.Styleable.CardView_android_minWidth = global::Booking.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::FAB.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::Booking.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::FAB.Droid.Resource.Styleable.CardView_cardCornerRadius = global::Booking.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::FAB.Droid.Resource.Styleable.CardView_cardElevation = global::Booking.Droid.Resource.Styleable.CardView_cardElevation;
-			global::FAB.Droid.Resource.Styleable.CardView_cardMaxElevation = global::Booking.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::FAB.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Booking.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::FAB.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::Booking.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::FAB.Droid.Resource.Styleable.CardView_contentPadding = global::Booking.Droid.Resource.Styleable.CardView_contentPadding;
-			global::FAB.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::Booking.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::FAB.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::Booking.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::FAB.Droid.Resource.Styleable.CardView_contentPaddingRight = global::Booking.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::FAB.Droid.Resource.Styleable.CardView_contentPaddingTop = global::Booking.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::FAB.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::Booking.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
-			global::FAB.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::Booking.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
-			global::FAB.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::Booking.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::FAB.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Booking.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::FAB.Droid.Resource.Styleable.CompoundButton = global::Booking.Droid.Resource.Styleable.CompoundButton;
-			global::FAB.Droid.Resource.Styleable.CompoundButton_android_button = global::Booking.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::FAB.Droid.Resource.Styleable.CompoundButton_buttonTint = global::Booking.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::FAB.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::Booking.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::FAB.Droid.Resource.Styleable.CoordinatorLayout = global::Booking.Droid.Resource.Styleable.CoordinatorLayout;
-			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::Booking.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Booking.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams = global::Booking.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
-			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::Booking.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
-			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::Booking.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
-			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::Booking.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
-			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::Booking.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
-			global::FAB.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::Booking.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
-			global::FAB.Droid.Resource.Styleable.DesignTheme = global::Booking.Droid.Resource.Styleable.DesignTheme;
-			global::FAB.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::Booking.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::FAB.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::Booking.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::FAB.Droid.Resource.Styleable.DesignTheme_textColorError = global::Booking.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle = global::Booking.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Booking.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Booking.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::Booking.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_color = global::Booking.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Booking.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Booking.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::Booking.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::FAB.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::Booking.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton = global::Booking.Droid.Resource.Styleable.FloatingActionButton;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::Booking.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Booking.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::Booking.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_elevation = global::Booking.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::Booking.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_colorDisabled = global::Booking.Droid.Resource.Styleable.FloatingActionButton_fab_colorDisabled;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_colorNormal = global::Booking.Droid.Resource.Styleable.FloatingActionButton_fab_colorNormal;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_colorPressed = global::Booking.Droid.Resource.Styleable.FloatingActionButton_fab_colorPressed;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_colorRipple = global::Booking.Droid.Resource.Styleable.FloatingActionButton_fab_colorRipple;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_shadow = global::Booking.Droid.Resource.Styleable.FloatingActionButton_fab_shadow;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_fab_size = global::Booking.Droid.Resource.Styleable.FloatingActionButton_fab_size;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Booking.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::Booking.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::FAB.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::Booking.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::FAB.Droid.Resource.Styleable.ForegroundLinearLayout = global::Booking.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::FAB.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::Booking.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::FAB.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::Booking.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::FAB.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::Booking.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::FAB.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Booking.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::FAB.Droid.Resource.Styleable.ListPopupWindow = global::Booking.Droid.Resource.Styleable.ListPopupWindow;
-			global::FAB.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Booking.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::FAB.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Booking.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::FAB.Droid.Resource.Styleable.MediaRouteButton = global::Booking.Droid.Resource.Styleable.MediaRouteButton;
-			global::FAB.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::Booking.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::FAB.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::Booking.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::FAB.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Booking.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::FAB.Droid.Resource.Styleable.MenuGroup = global::Booking.Droid.Resource.Styleable.MenuGroup;
-			global::FAB.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Booking.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::FAB.Droid.Resource.Styleable.MenuGroup_android_enabled = global::Booking.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::FAB.Droid.Resource.Styleable.MenuGroup_android_id = global::Booking.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::FAB.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::Booking.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::FAB.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::Booking.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::FAB.Droid.Resource.Styleable.MenuGroup_android_visible = global::Booking.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::FAB.Droid.Resource.Styleable.MenuItem = global::Booking.Droid.Resource.Styleable.MenuItem;
-			global::FAB.Droid.Resource.Styleable.MenuItem_actionLayout = global::Booking.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::FAB.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::Booking.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::FAB.Droid.Resource.Styleable.MenuItem_actionViewClass = global::Booking.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Booking.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_checkable = global::Booking.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_checked = global::Booking.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_enabled = global::Booking.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_icon = global::Booking.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_id = global::Booking.Droid.Resource.Styleable.MenuItem_android_id;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::Booking.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::Booking.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_onClick = global::Booking.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::Booking.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_title = global::Booking.Droid.Resource.Styleable.MenuItem_android_title;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::Booking.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::FAB.Droid.Resource.Styleable.MenuItem_android_visible = global::Booking.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::FAB.Droid.Resource.Styleable.MenuItem_showAsAction = global::Booking.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::FAB.Droid.Resource.Styleable.MenuView = global::Booking.Droid.Resource.Styleable.MenuView;
-			global::FAB.Droid.Resource.Styleable.MenuView_android_headerBackground = global::Booking.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::FAB.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::Booking.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::FAB.Droid.Resource.Styleable.MenuView_android_itemBackground = global::Booking.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::FAB.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Booking.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::FAB.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::Booking.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::FAB.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::Booking.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::FAB.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Booking.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::FAB.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::Booking.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::FAB.Droid.Resource.Styleable.NavigationView = global::Booking.Droid.Resource.Styleable.NavigationView;
-			global::FAB.Droid.Resource.Styleable.NavigationView_android_background = global::Booking.Droid.Resource.Styleable.NavigationView_android_background;
-			global::FAB.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Booking.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::FAB.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::Booking.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::FAB.Droid.Resource.Styleable.NavigationView_elevation = global::Booking.Droid.Resource.Styleable.NavigationView_elevation;
-			global::FAB.Droid.Resource.Styleable.NavigationView_headerLayout = global::Booking.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::FAB.Droid.Resource.Styleable.NavigationView_itemBackground = global::Booking.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::FAB.Droid.Resource.Styleable.NavigationView_itemIconTint = global::Booking.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::FAB.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::Booking.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::FAB.Droid.Resource.Styleable.NavigationView_itemTextColor = global::Booking.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::FAB.Droid.Resource.Styleable.NavigationView_menu = global::Booking.Droid.Resource.Styleable.NavigationView_menu;
-			global::FAB.Droid.Resource.Styleable.PopupWindow = global::Booking.Droid.Resource.Styleable.PopupWindow;
-			global::FAB.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::Booking.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::FAB.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::Booking.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::FAB.Droid.Resource.Styleable.PopupWindowBackgroundState = global::Booking.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::FAB.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Booking.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::FAB.Droid.Resource.Styleable.RecyclerView = global::Booking.Droid.Resource.Styleable.RecyclerView;
-			global::FAB.Droid.Resource.Styleable.RecyclerView_android_orientation = global::Booking.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::FAB.Droid.Resource.Styleable.RecyclerView_layoutManager = global::Booking.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::FAB.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::Booking.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::FAB.Droid.Resource.Styleable.RecyclerView_spanCount = global::Booking.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::FAB.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::Booking.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::FAB.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::Booking.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::FAB.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Booking.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::FAB.Droid.Resource.Styleable.ScrollingViewBehavior_Params = global::Booking.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
-			global::FAB.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::Booking.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
-			global::FAB.Droid.Resource.Styleable.SearchView = global::Booking.Droid.Resource.Styleable.SearchView;
-			global::FAB.Droid.Resource.Styleable.SearchView_android_focusable = global::Booking.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::FAB.Droid.Resource.Styleable.SearchView_android_imeOptions = global::Booking.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::FAB.Droid.Resource.Styleable.SearchView_android_inputType = global::Booking.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::FAB.Droid.Resource.Styleable.SearchView_android_maxWidth = global::Booking.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::FAB.Droid.Resource.Styleable.SearchView_closeIcon = global::Booking.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::FAB.Droid.Resource.Styleable.SearchView_commitIcon = global::Booking.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::FAB.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::Booking.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::FAB.Droid.Resource.Styleable.SearchView_goIcon = global::Booking.Droid.Resource.Styleable.SearchView_goIcon;
-			global::FAB.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::Booking.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::FAB.Droid.Resource.Styleable.SearchView_layout = global::Booking.Droid.Resource.Styleable.SearchView_layout;
-			global::FAB.Droid.Resource.Styleable.SearchView_queryBackground = global::Booking.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::FAB.Droid.Resource.Styleable.SearchView_queryHint = global::Booking.Droid.Resource.Styleable.SearchView_queryHint;
-			global::FAB.Droid.Resource.Styleable.SearchView_searchHintIcon = global::Booking.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::FAB.Droid.Resource.Styleable.SearchView_searchIcon = global::Booking.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::FAB.Droid.Resource.Styleable.SearchView_submitBackground = global::Booking.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::FAB.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::Booking.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::FAB.Droid.Resource.Styleable.SearchView_voiceIcon = global::Booking.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::FAB.Droid.Resource.Styleable.SnackbarLayout = global::Booking.Droid.Resource.Styleable.SnackbarLayout;
-			global::FAB.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Booking.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::FAB.Droid.Resource.Styleable.SnackbarLayout_elevation = global::Booking.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::FAB.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Booking.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::FAB.Droid.Resource.Styleable.Spinner = global::Booking.Droid.Resource.Styleable.Spinner;
-			global::FAB.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::Booking.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::FAB.Droid.Resource.Styleable.Spinner_android_entries = global::Booking.Droid.Resource.Styleable.Spinner_android_entries;
-			global::FAB.Droid.Resource.Styleable.Spinner_android_popupBackground = global::Booking.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::FAB.Droid.Resource.Styleable.Spinner_android_prompt = global::Booking.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::FAB.Droid.Resource.Styleable.Spinner_popupTheme = global::Booking.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat = global::Booking.Droid.Resource.Styleable.SwitchCompat;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::Booking.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::Booking.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::Booking.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_showText = global::Booking.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::Booking.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::Booking.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::Booking.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Booking.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Booking.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::FAB.Droid.Resource.Styleable.SwitchCompat_track = global::Booking.Droid.Resource.Styleable.SwitchCompat_track;
-			global::FAB.Droid.Resource.Styleable.TabItem = global::Booking.Droid.Resource.Styleable.TabItem;
-			global::FAB.Droid.Resource.Styleable.TabItem_android_icon = global::Booking.Droid.Resource.Styleable.TabItem_android_icon;
-			global::FAB.Droid.Resource.Styleable.TabItem_android_layout = global::Booking.Droid.Resource.Styleable.TabItem_android_layout;
-			global::FAB.Droid.Resource.Styleable.TabItem_android_text = global::Booking.Droid.Resource.Styleable.TabItem_android_text;
-			global::FAB.Droid.Resource.Styleable.TabLayout = global::Booking.Droid.Resource.Styleable.TabLayout;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabBackground = global::Booking.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabContentStart = global::Booking.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabGravity = global::Booking.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::Booking.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Booking.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::Booking.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::Booking.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabMode = global::Booking.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabPadding = global::Booking.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::Booking.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::Booking.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::Booking.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::Booking.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Booking.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::Booking.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::FAB.Droid.Resource.Styleable.TabLayout_tabTextColor = global::Booking.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::FAB.Droid.Resource.Styleable.TextAppearance = global::Booking.Droid.Resource.Styleable.TextAppearance;
-			global::FAB.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::Booking.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::FAB.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::Booking.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::FAB.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::Booking.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::FAB.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::Booking.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::FAB.Droid.Resource.Styleable.TextAppearance_android_textColor = global::Booking.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::FAB.Droid.Resource.Styleable.TextAppearance_android_textSize = global::Booking.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::FAB.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::Booking.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::FAB.Droid.Resource.Styleable.TextAppearance_android_typeface = global::Booking.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::FAB.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::Booking.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout = global::Booking.Droid.Resource.Styleable.TextInputLayout;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_android_hint = global::Booking.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::Booking.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::Booking.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::Booking.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::Booking.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::Booking.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::Booking.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Booking.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Booking.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::Booking.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::FAB.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Booking.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::FAB.Droid.Resource.Styleable.Toolbar = global::Booking.Droid.Resource.Styleable.Toolbar;
-			global::FAB.Droid.Resource.Styleable.Toolbar_android_gravity = global::Booking.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::FAB.Droid.Resource.Styleable.Toolbar_android_minHeight = global::Booking.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::FAB.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::Booking.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::FAB.Droid.Resource.Styleable.Toolbar_collapseIcon = global::Booking.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::FAB.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::Booking.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::FAB.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::Booking.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::FAB.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::Booking.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::FAB.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::Booking.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::FAB.Droid.Resource.Styleable.Toolbar_logo = global::Booking.Droid.Resource.Styleable.Toolbar_logo;
-			global::FAB.Droid.Resource.Styleable.Toolbar_logoDescription = global::Booking.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::FAB.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::Booking.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::FAB.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::Booking.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::FAB.Droid.Resource.Styleable.Toolbar_navigationIcon = global::Booking.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::FAB.Droid.Resource.Styleable.Toolbar_popupTheme = global::Booking.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::FAB.Droid.Resource.Styleable.Toolbar_subtitle = global::Booking.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::FAB.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Booking.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::FAB.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::Booking.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::FAB.Droid.Resource.Styleable.Toolbar_title = global::Booking.Droid.Resource.Styleable.Toolbar_title;
-			global::FAB.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::Booking.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::FAB.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::Booking.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::FAB.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::Booking.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::FAB.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::Booking.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::FAB.Droid.Resource.Styleable.Toolbar_titleMargins = global::Booking.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::FAB.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::Booking.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::FAB.Droid.Resource.Styleable.Toolbar_titleTextColor = global::Booking.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::FAB.Droid.Resource.Styleable.View = global::Booking.Droid.Resource.Styleable.View;
-			global::FAB.Droid.Resource.Styleable.View_android_focusable = global::Booking.Droid.Resource.Styleable.View_android_focusable;
-			global::FAB.Droid.Resource.Styleable.View_android_theme = global::Booking.Droid.Resource.Styleable.View_android_theme;
-			global::FAB.Droid.Resource.Styleable.View_paddingEnd = global::Booking.Droid.Resource.Styleable.View_paddingEnd;
-			global::FAB.Droid.Resource.Styleable.View_paddingStart = global::Booking.Droid.Resource.Styleable.View_paddingStart;
-			global::FAB.Droid.Resource.Styleable.View_theme = global::Booking.Droid.Resource.Styleable.View_theme;
-			global::FAB.Droid.Resource.Styleable.ViewBackgroundHelper = global::Booking.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::FAB.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::Booking.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::FAB.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Booking.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::FAB.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Booking.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::FAB.Droid.Resource.Styleable.ViewStubCompat = global::Booking.Droid.Resource.Styleable.ViewStubCompat;
-			global::FAB.Droid.Resource.Styleable.ViewStubCompat_android_id = global::Booking.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::FAB.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Booking.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::FAB.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::Booking.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Booking.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -2314,24 +497,6 @@ namespace Booking.Droid
 			
 			// aapt resource value: 0x7f010115
 			public const int fabSize = 2130772245;
-			
-			// aapt resource value: 0x7f01013e
-			public const int fab_colorDisabled = 2130772286;
-			
-			// aapt resource value: 0x7f01013d
-			public const int fab_colorNormal = 2130772285;
-			
-			// aapt resource value: 0x7f01013c
-			public const int fab_colorPressed = 2130772284;
-			
-			// aapt resource value: 0x7f01013f
-			public const int fab_colorRipple = 2130772287;
-			
-			// aapt resource value: 0x7f010140
-			public const int fab_shadow = 2130772288;
-			
-			// aapt resource value: 0x7f010141
-			public const int fab_size = 2130772289;
 			
 			// aapt resource value: 0x7f010119
 			public const int foregroundInsidePadding = 2130772249;
@@ -2929,38 +1094,38 @@ namespace Booking.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b0049
-			public const int AccentColor = 2131427401;
+			// aapt resource value: 0x7f0b0048
+			public const int AccentColor = 2131427400;
 			
-			// aapt resource value: 0x7f0b004a
-			public const int InverseTextColor = 2131427402;
+			// aapt resource value: 0x7f0b0049
+			public const int InverseTextColor = 2131427401;
+			
+			// aapt resource value: 0x7f0b004d
+			public const int abc_background_cache_hint_selector_material_dark = 2131427405;
 			
 			// aapt resource value: 0x7f0b004e
-			public const int abc_background_cache_hint_selector_material_dark = 2131427406;
+			public const int abc_background_cache_hint_selector_material_light = 2131427406;
 			
 			// aapt resource value: 0x7f0b004f
-			public const int abc_background_cache_hint_selector_material_light = 2131427407;
-			
-			// aapt resource value: 0x7f0b0050
-			public const int abc_color_highlight_material = 2131427408;
+			public const int abc_color_highlight_material = 2131427407;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int abc_input_method_navigation_guard = 2131427332;
 			
+			// aapt resource value: 0x7f0b0050
+			public const int abc_primary_text_disable_only_material_dark = 2131427408;
+			
 			// aapt resource value: 0x7f0b0051
-			public const int abc_primary_text_disable_only_material_dark = 2131427409;
+			public const int abc_primary_text_disable_only_material_light = 2131427409;
 			
 			// aapt resource value: 0x7f0b0052
-			public const int abc_primary_text_disable_only_material_light = 2131427410;
+			public const int abc_primary_text_material_dark = 2131427410;
 			
 			// aapt resource value: 0x7f0b0053
-			public const int abc_primary_text_material_dark = 2131427411;
+			public const int abc_primary_text_material_light = 2131427411;
 			
 			// aapt resource value: 0x7f0b0054
-			public const int abc_primary_text_material_light = 2131427412;
-			
-			// aapt resource value: 0x7f0b0055
-			public const int abc_search_url_text = 2131427413;
+			public const int abc_search_url_text = 2131427412;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int abc_search_url_text_normal = 2131427333;
@@ -2971,11 +1136,11 @@ namespace Booking.Droid
 			// aapt resource value: 0x7f0b0007
 			public const int abc_search_url_text_selected = 2131427335;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int abc_secondary_text_material_dark = 2131427414;
+			// aapt resource value: 0x7f0b0055
+			public const int abc_secondary_text_material_dark = 2131427413;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int abc_secondary_text_material_light = 2131427415;
+			// aapt resource value: 0x7f0b0056
+			public const int abc_secondary_text_material_light = 2131427414;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int accent_material_dark = 2131427336;
@@ -2983,8 +1148,8 @@ namespace Booking.Droid
 			// aapt resource value: 0x7f0b0009
 			public const int accent_material_light = 2131427337;
 			
-			// aapt resource value: 0x7f0b004d
-			public const int actionbar_tab_indicator = 2131427405;
+			// aapt resource value: 0x7f0b004c
+			public const int actionbar_tab_indicator = 2131427404;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int background_floating_material_dark = 2131427338;
@@ -3076,9 +1241,6 @@ namespace Booking.Droid
 			// aapt resource value: 0x7f0b0019
 			public const int dim_foreground_material_light = 2131427353;
 			
-			// aapt resource value: 0x7f0b0048
-			public const int fab_material_blue_500 = 2131427400;
-			
 			// aapt resource value: 0x7f0b001a
 			public const int foreground_material_dark = 2131427354;
 			
@@ -3133,11 +1295,11 @@ namespace Booking.Droid
 			// aapt resource value: 0x7f0b002b
 			public const int material_grey_900 = 2131427371;
 			
-			// aapt resource value: 0x7f0b004b
-			public const int primary = 2131427403;
+			// aapt resource value: 0x7f0b004a
+			public const int primary = 2131427402;
 			
-			// aapt resource value: 0x7f0b004c
-			public const int primary_dark = 2131427404;
+			// aapt resource value: 0x7f0b004b
+			public const int primary_dark = 2131427403;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int primary_dark_material_dark = 2131427372;
@@ -3187,11 +1349,11 @@ namespace Booking.Droid
 			// aapt resource value: 0x7f0b003b
 			public const int switch_thumb_disabled_material_light = 2131427387;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int switch_thumb_material_dark = 2131427416;
+			// aapt resource value: 0x7f0b0057
+			public const int switch_thumb_material_dark = 2131427415;
 			
-			// aapt resource value: 0x7f0b0059
-			public const int switch_thumb_material_light = 2131427417;
+			// aapt resource value: 0x7f0b0058
+			public const int switch_thumb_material_light = 2131427416;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int switch_thumb_normal_material_dark = 2131427388;
@@ -3514,21 +1676,6 @@ namespace Booking.Droid
 			
 			// aapt resource value: 0x7f060050
 			public const int disabled_alpha_material_light = 2131099728;
-			
-			// aapt resource value: 0x7f060078
-			public const int fab_elevation_lollipop = 2131099768;
-			
-			// aapt resource value: 0x7f060077
-			public const int fab_scroll_threshold = 2131099767;
-			
-			// aapt resource value: 0x7f060076
-			public const int fab_shadow_size = 2131099766;
-			
-			// aapt resource value: 0x7f060075
-			public const int fab_size_mini = 2131099765;
-			
-			// aapt resource value: 0x7f060074
-			public const int fab_size_normal = 2131099764;
 			
 			// aapt resource value: 0x7f060051
 			public const int highlight_alpha_material_colored = 2131099729;
@@ -3856,304 +2003,301 @@ namespace Booking.Droid
 			public const int design_snackbar_background = 2130837592;
 			
 			// aapt resource value: 0x7f020059
-			public const int fab_shadow = 2130837593;
+			public const int favorite = 2130837593;
 			
 			// aapt resource value: 0x7f02005a
-			public const int fab_shadow_mini = 2130837594;
+			public const int friend_thumbnail_27 = 2130837594;
 			
 			// aapt resource value: 0x7f02005b
-			public const int favorite = 2130837595;
+			public const int friend_thumbnail_31 = 2130837595;
 			
 			// aapt resource value: 0x7f02005c
-			public const int friend_thumbnail_27 = 2130837596;
+			public const int friend_thumbnail_34 = 2130837596;
 			
 			// aapt resource value: 0x7f02005d
-			public const int friend_thumbnail_31 = 2130837597;
+			public const int gallery = 2130837597;
 			
 			// aapt resource value: 0x7f02005e
-			public const int friend_thumbnail_34 = 2130837598;
+			public const int hamburguer_icon = 2130837598;
 			
 			// aapt resource value: 0x7f02005f
-			public const int gallery = 2130837599;
+			public const int ic_audiotrack = 2130837599;
 			
 			// aapt resource value: 0x7f020060
-			public const int hamburguer_icon = 2130837600;
+			public const int ic_audiotrack_light = 2130837600;
 			
 			// aapt resource value: 0x7f020061
-			public const int ic_audiotrack = 2130837601;
+			public const int ic_bluetooth_grey = 2130837601;
 			
 			// aapt resource value: 0x7f020062
-			public const int ic_audiotrack_light = 2130837602;
+			public const int ic_bluetooth_white = 2130837602;
 			
 			// aapt resource value: 0x7f020063
-			public const int ic_bluetooth_grey = 2130837603;
+			public const int ic_cast_dark = 2130837603;
 			
 			// aapt resource value: 0x7f020064
-			public const int ic_bluetooth_white = 2130837604;
+			public const int ic_cast_disabled_light = 2130837604;
 			
 			// aapt resource value: 0x7f020065
-			public const int ic_cast_dark = 2130837605;
+			public const int ic_cast_grey = 2130837605;
 			
 			// aapt resource value: 0x7f020066
-			public const int ic_cast_disabled_light = 2130837606;
+			public const int ic_cast_light = 2130837606;
 			
 			// aapt resource value: 0x7f020067
-			public const int ic_cast_grey = 2130837607;
+			public const int ic_cast_off_light = 2130837607;
 			
 			// aapt resource value: 0x7f020068
-			public const int ic_cast_light = 2130837608;
+			public const int ic_cast_on_0_light = 2130837608;
 			
 			// aapt resource value: 0x7f020069
-			public const int ic_cast_off_light = 2130837609;
+			public const int ic_cast_on_1_light = 2130837609;
 			
 			// aapt resource value: 0x7f02006a
-			public const int ic_cast_on_0_light = 2130837610;
+			public const int ic_cast_on_2_light = 2130837610;
 			
 			// aapt resource value: 0x7f02006b
-			public const int ic_cast_on_1_light = 2130837611;
+			public const int ic_cast_on_light = 2130837611;
 			
 			// aapt resource value: 0x7f02006c
-			public const int ic_cast_on_2_light = 2130837612;
+			public const int ic_cast_white = 2130837612;
 			
 			// aapt resource value: 0x7f02006d
-			public const int ic_cast_on_light = 2130837613;
+			public const int ic_close_dark = 2130837613;
 			
 			// aapt resource value: 0x7f02006e
-			public const int ic_cast_white = 2130837614;
+			public const int ic_close_light = 2130837614;
 			
 			// aapt resource value: 0x7f02006f
-			public const int ic_close_dark = 2130837615;
+			public const int ic_collapse = 2130837615;
 			
 			// aapt resource value: 0x7f020070
-			public const int ic_close_light = 2130837616;
+			public const int ic_collapse_00000 = 2130837616;
 			
 			// aapt resource value: 0x7f020071
-			public const int ic_collapse = 2130837617;
+			public const int ic_collapse_00001 = 2130837617;
 			
 			// aapt resource value: 0x7f020072
-			public const int ic_collapse_00000 = 2130837618;
+			public const int ic_collapse_00002 = 2130837618;
 			
 			// aapt resource value: 0x7f020073
-			public const int ic_collapse_00001 = 2130837619;
+			public const int ic_collapse_00003 = 2130837619;
 			
 			// aapt resource value: 0x7f020074
-			public const int ic_collapse_00002 = 2130837620;
+			public const int ic_collapse_00004 = 2130837620;
 			
 			// aapt resource value: 0x7f020075
-			public const int ic_collapse_00003 = 2130837621;
+			public const int ic_collapse_00005 = 2130837621;
 			
 			// aapt resource value: 0x7f020076
-			public const int ic_collapse_00004 = 2130837622;
+			public const int ic_collapse_00006 = 2130837622;
 			
 			// aapt resource value: 0x7f020077
-			public const int ic_collapse_00005 = 2130837623;
+			public const int ic_collapse_00007 = 2130837623;
 			
 			// aapt resource value: 0x7f020078
-			public const int ic_collapse_00006 = 2130837624;
+			public const int ic_collapse_00008 = 2130837624;
 			
 			// aapt resource value: 0x7f020079
-			public const int ic_collapse_00007 = 2130837625;
+			public const int ic_collapse_00009 = 2130837625;
 			
 			// aapt resource value: 0x7f02007a
-			public const int ic_collapse_00008 = 2130837626;
+			public const int ic_collapse_00010 = 2130837626;
 			
 			// aapt resource value: 0x7f02007b
-			public const int ic_collapse_00009 = 2130837627;
+			public const int ic_collapse_00011 = 2130837627;
 			
 			// aapt resource value: 0x7f02007c
-			public const int ic_collapse_00010 = 2130837628;
+			public const int ic_collapse_00012 = 2130837628;
 			
 			// aapt resource value: 0x7f02007d
-			public const int ic_collapse_00011 = 2130837629;
+			public const int ic_collapse_00013 = 2130837629;
 			
 			// aapt resource value: 0x7f02007e
-			public const int ic_collapse_00012 = 2130837630;
+			public const int ic_collapse_00014 = 2130837630;
 			
 			// aapt resource value: 0x7f02007f
-			public const int ic_collapse_00013 = 2130837631;
+			public const int ic_collapse_00015 = 2130837631;
 			
 			// aapt resource value: 0x7f020080
-			public const int ic_collapse_00014 = 2130837632;
+			public const int ic_expand = 2130837632;
 			
 			// aapt resource value: 0x7f020081
-			public const int ic_collapse_00015 = 2130837633;
+			public const int ic_expand_00000 = 2130837633;
 			
 			// aapt resource value: 0x7f020082
-			public const int ic_expand = 2130837634;
+			public const int ic_expand_00001 = 2130837634;
 			
 			// aapt resource value: 0x7f020083
-			public const int ic_expand_00000 = 2130837635;
+			public const int ic_expand_00002 = 2130837635;
 			
 			// aapt resource value: 0x7f020084
-			public const int ic_expand_00001 = 2130837636;
+			public const int ic_expand_00003 = 2130837636;
 			
 			// aapt resource value: 0x7f020085
-			public const int ic_expand_00002 = 2130837637;
+			public const int ic_expand_00004 = 2130837637;
 			
 			// aapt resource value: 0x7f020086
-			public const int ic_expand_00003 = 2130837638;
+			public const int ic_expand_00005 = 2130837638;
 			
 			// aapt resource value: 0x7f020087
-			public const int ic_expand_00004 = 2130837639;
+			public const int ic_expand_00006 = 2130837639;
 			
 			// aapt resource value: 0x7f020088
-			public const int ic_expand_00005 = 2130837640;
+			public const int ic_expand_00007 = 2130837640;
 			
 			// aapt resource value: 0x7f020089
-			public const int ic_expand_00006 = 2130837641;
+			public const int ic_expand_00008 = 2130837641;
 			
 			// aapt resource value: 0x7f02008a
-			public const int ic_expand_00007 = 2130837642;
+			public const int ic_expand_00009 = 2130837642;
 			
 			// aapt resource value: 0x7f02008b
-			public const int ic_expand_00008 = 2130837643;
+			public const int ic_expand_00010 = 2130837643;
 			
 			// aapt resource value: 0x7f02008c
-			public const int ic_expand_00009 = 2130837644;
+			public const int ic_expand_00011 = 2130837644;
 			
 			// aapt resource value: 0x7f02008d
-			public const int ic_expand_00010 = 2130837645;
+			public const int ic_expand_00012 = 2130837645;
 			
 			// aapt resource value: 0x7f02008e
-			public const int ic_expand_00011 = 2130837646;
+			public const int ic_expand_00013 = 2130837646;
 			
 			// aapt resource value: 0x7f02008f
-			public const int ic_expand_00012 = 2130837647;
+			public const int ic_expand_00014 = 2130837647;
 			
 			// aapt resource value: 0x7f020090
-			public const int ic_expand_00013 = 2130837648;
+			public const int ic_expand_00015 = 2130837648;
 			
 			// aapt resource value: 0x7f020091
-			public const int ic_expand_00014 = 2130837649;
+			public const int ic_media_pause = 2130837649;
 			
 			// aapt resource value: 0x7f020092
-			public const int ic_expand_00015 = 2130837650;
+			public const int ic_media_play = 2130837650;
 			
 			// aapt resource value: 0x7f020093
-			public const int ic_media_pause = 2130837651;
+			public const int ic_media_route_disabled_mono_dark = 2130837651;
 			
 			// aapt resource value: 0x7f020094
-			public const int ic_media_play = 2130837652;
+			public const int ic_media_route_off_mono_dark = 2130837652;
 			
 			// aapt resource value: 0x7f020095
-			public const int ic_media_route_disabled_mono_dark = 2130837653;
+			public const int ic_media_route_on_0_mono_dark = 2130837653;
 			
 			// aapt resource value: 0x7f020096
-			public const int ic_media_route_off_mono_dark = 2130837654;
+			public const int ic_media_route_on_1_mono_dark = 2130837654;
 			
 			// aapt resource value: 0x7f020097
-			public const int ic_media_route_on_0_mono_dark = 2130837655;
+			public const int ic_media_route_on_2_mono_dark = 2130837655;
 			
 			// aapt resource value: 0x7f020098
-			public const int ic_media_route_on_1_mono_dark = 2130837656;
+			public const int ic_media_route_on_mono_dark = 2130837656;
 			
 			// aapt resource value: 0x7f020099
-			public const int ic_media_route_on_2_mono_dark = 2130837657;
+			public const int ic_pause_dark = 2130837657;
 			
 			// aapt resource value: 0x7f02009a
-			public const int ic_media_route_on_mono_dark = 2130837658;
+			public const int ic_pause_light = 2130837658;
 			
 			// aapt resource value: 0x7f02009b
-			public const int ic_pause_dark = 2130837659;
+			public const int ic_play_dark = 2130837659;
 			
 			// aapt resource value: 0x7f02009c
-			public const int ic_pause_light = 2130837660;
+			public const int ic_play_light = 2130837660;
 			
 			// aapt resource value: 0x7f02009d
-			public const int ic_play_dark = 2130837661;
+			public const int ic_speaker_dark = 2130837661;
 			
 			// aapt resource value: 0x7f02009e
-			public const int ic_play_light = 2130837662;
+			public const int ic_speaker_group_dark = 2130837662;
 			
 			// aapt resource value: 0x7f02009f
-			public const int ic_speaker_dark = 2130837663;
+			public const int ic_speaker_group_light = 2130837663;
 			
 			// aapt resource value: 0x7f0200a0
-			public const int ic_speaker_group_dark = 2130837664;
+			public const int ic_speaker_light = 2130837664;
 			
 			// aapt resource value: 0x7f0200a1
-			public const int ic_speaker_group_light = 2130837665;
+			public const int ic_tv_dark = 2130837665;
 			
 			// aapt resource value: 0x7f0200a2
-			public const int ic_speaker_light = 2130837666;
+			public const int ic_tv_light = 2130837666;
 			
 			// aapt resource value: 0x7f0200a3
-			public const int ic_tv_dark = 2130837667;
+			public const int icon = 2130837667;
 			
 			// aapt resource value: 0x7f0200a4
-			public const int ic_tv_light = 2130837668;
+			public const int mr_dialog_material_background_dark = 2130837668;
 			
 			// aapt resource value: 0x7f0200a5
-			public const int icon = 2130837669;
+			public const int mr_dialog_material_background_light = 2130837669;
 			
 			// aapt resource value: 0x7f0200a6
-			public const int mr_dialog_material_background_dark = 2130837670;
+			public const int mr_ic_audiotrack_light = 2130837670;
 			
 			// aapt resource value: 0x7f0200a7
-			public const int mr_dialog_material_background_light = 2130837671;
+			public const int mr_ic_cast_dark = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int mr_ic_audiotrack_light = 2130837672;
+			public const int mr_ic_cast_light = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int mr_ic_cast_dark = 2130837673;
+			public const int mr_ic_close_dark = 2130837673;
 			
 			// aapt resource value: 0x7f0200aa
-			public const int mr_ic_cast_light = 2130837674;
+			public const int mr_ic_close_light = 2130837674;
 			
 			// aapt resource value: 0x7f0200ab
-			public const int mr_ic_close_dark = 2130837675;
+			public const int mr_ic_media_route_connecting_mono_dark = 2130837675;
 			
 			// aapt resource value: 0x7f0200ac
-			public const int mr_ic_close_light = 2130837676;
+			public const int mr_ic_media_route_connecting_mono_light = 2130837676;
 			
 			// aapt resource value: 0x7f0200ad
-			public const int mr_ic_media_route_connecting_mono_dark = 2130837677;
+			public const int mr_ic_media_route_mono_dark = 2130837677;
 			
 			// aapt resource value: 0x7f0200ae
-			public const int mr_ic_media_route_connecting_mono_light = 2130837678;
+			public const int mr_ic_media_route_mono_light = 2130837678;
 			
 			// aapt resource value: 0x7f0200af
-			public const int mr_ic_media_route_mono_dark = 2130837679;
+			public const int mr_ic_pause_dark = 2130837679;
 			
 			// aapt resource value: 0x7f0200b0
-			public const int mr_ic_media_route_mono_light = 2130837680;
+			public const int mr_ic_pause_light = 2130837680;
 			
 			// aapt resource value: 0x7f0200b1
-			public const int mr_ic_pause_dark = 2130837681;
+			public const int mr_ic_play_dark = 2130837681;
 			
 			// aapt resource value: 0x7f0200b2
-			public const int mr_ic_pause_light = 2130837682;
-			
-			// aapt resource value: 0x7f0200b3
-			public const int mr_ic_play_dark = 2130837683;
-			
-			// aapt resource value: 0x7f0200b4
-			public const int mr_ic_play_light = 2130837684;
-			
-			// aapt resource value: 0x7f0200bc
-			public const int notification_template_icon_bg = 2130837692;
-			
-			// aapt resource value: 0x7f0200b5
-			public const int plus = 2130837685;
-			
-			// aapt resource value: 0x7f0200b6
-			public const int social_header_bg_0 = 2130837686;
-			
-			// aapt resource value: 0x7f0200b7
-			public const int splash = 2130837687;
-			
-			// aapt resource value: 0x7f0200b8
-			public const int table = 2130837688;
-			
-			// aapt resource value: 0x7f0200b9
-			public const int table_reserved = 2130837689;
-			
-			// aapt resource value: 0x7f0200ba
-			public const int tv = 2130837690;
+			public const int mr_ic_play_light = 2130837682;
 			
 			// aapt resource value: 0x7f0200bb
-			public const int user_profile_0 = 2130837691;
+			public const int notification_template_icon_bg = 2130837691;
+			
+			// aapt resource value: 0x7f0200b3
+			public const int plus = 2130837683;
+			
+			// aapt resource value: 0x7f0200b4
+			public const int signup_bg = 2130837684;
+			
+			// aapt resource value: 0x7f0200b5
+			public const int social_header_bg_0 = 2130837685;
+			
+			// aapt resource value: 0x7f0200b6
+			public const int splash = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int table = 2130837687;
+			
+			// aapt resource value: 0x7f0200b8
+			public const int table_reserved = 2130837688;
+			
+			// aapt resource value: 0x7f0200b9
+			public const int tv = 2130837689;
+			
+			// aapt resource value: 0x7f0200ba
+			public const int user_profile_0 = 2130837690;
 			
 			static Drawable()
 			{
@@ -4817,70 +2961,64 @@ namespace Booking.Droid
 			public const int design_navigation_menu_item = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int mini_fab = 2130903077;
+			public const int mr_chooser_dialog = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int mr_chooser_dialog = 2130903078;
+			public const int mr_chooser_list_item = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int mr_chooser_list_item = 2130903079;
+			public const int mr_controller_material_dialog_b = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int mr_controller_material_dialog_b = 2130903080;
+			public const int mr_controller_volume_item = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int mr_controller_volume_item = 2130903081;
+			public const int mr_playback_control = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int mr_playback_control = 2130903082;
+			public const int mr_volume_control = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int mr_volume_control = 2130903083;
+			public const int notification_media_action = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int normal_fab = 2130903084;
+			public const int notification_media_cancel_action = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int notification_media_action = 2130903085;
+			public const int notification_template_big_media = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int notification_media_cancel_action = 2130903086;
+			public const int notification_template_big_media_narrow = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int notification_template_big_media = 2130903087;
+			public const int notification_template_lines = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int notification_template_big_media_narrow = 2130903088;
+			public const int notification_template_media = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int notification_template_lines = 2130903089;
+			public const int notification_template_part_chronometer = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public const int notification_template_media = 2130903090;
+			public const int notification_template_part_time = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public const int notification_template_part_chronometer = 2130903091;
+			public const int select_dialog_item_material = 2130903091;
 			
 			// aapt resource value: 0x7f030034
-			public const int notification_template_part_time = 2130903092;
+			public const int select_dialog_multichoice_material = 2130903092;
 			
 			// aapt resource value: 0x7f030035
-			public const int select_dialog_item_material = 2130903093;
+			public const int select_dialog_singlechoice_material = 2130903093;
 			
 			// aapt resource value: 0x7f030036
-			public const int select_dialog_multichoice_material = 2130903094;
+			public const int support_simple_spinner_dropdown_item = 2130903094;
 			
 			// aapt resource value: 0x7f030037
-			public const int select_dialog_singlechoice_material = 2130903095;
+			public const int Tabs = 2130903095;
 			
 			// aapt resource value: 0x7f030038
-			public const int support_simple_spinner_dropdown_item = 2130903096;
-			
-			// aapt resource value: 0x7f030039
-			public const int Tabs = 2130903097;
-			
-			// aapt resource value: 0x7f03003a
-			public const int Toolbar = 2130903098;
+			public const int Toolbar = 2130903096;
 			
 			static Layout()
 			{
@@ -4960,36 +3098,6 @@ namespace Booking.Droid
 			
 			// aapt resource value: 0x7f080025
 			public const int character_counter_pattern = 2131230757;
-			
-			// aapt resource value: 0x7f080027
-			public const int define_FloatingActionButton = 2131230759;
-			
-			// aapt resource value: 0x7f080028
-			public const int library_FloatingActionButton_author = 2131230760;
-			
-			// aapt resource value: 0x7f080029
-			public const int library_FloatingActionButton_authorWebsite = 2131230761;
-			
-			// aapt resource value: 0x7f08002e
-			public const int library_FloatingActionButton_isOpenSource = 2131230766;
-			
-			// aapt resource value: 0x7f08002b
-			public const int library_FloatingActionButton_libraryDescription = 2131230763;
-			
-			// aapt resource value: 0x7f08002a
-			public const int library_FloatingActionButton_libraryName = 2131230762;
-			
-			// aapt resource value: 0x7f08002d
-			public const int library_FloatingActionButton_libraryVersion = 2131230765;
-			
-			// aapt resource value: 0x7f08002c
-			public const int library_FloatingActionButton_libraryWebsite = 2131230764;
-			
-			// aapt resource value: 0x7f080030
-			public const int library_FloatingActionButton_licenseId = 2131230768;
-			
-			// aapt resource value: 0x7f08002f
-			public const int library_FloatingActionButton_repositoryLink = 2131230767;
 			
 			// aapt resource value: 0x7f080026
 			public const int library_name = 2131230758;
@@ -7122,13 +5230,7 @@ namespace Booking.Droid
 					2130772245,
 					2130772246,
 					2130772247,
-					2130772248,
-					2130772284,
-					2130772285,
-					2130772286,
-					2130772287,
-					2130772288,
-					2130772289};
+					2130772248};
 			
 			// aapt resource value: 1
 			public const int FloatingActionButton_backgroundTint = 1;
@@ -7144,24 +5246,6 @@ namespace Booking.Droid
 			
 			// aapt resource value: 4
 			public const int FloatingActionButton_fabSize = 4;
-			
-			// aapt resource value: 10
-			public const int FloatingActionButton_fab_colorDisabled = 10;
-			
-			// aapt resource value: 9
-			public const int FloatingActionButton_fab_colorNormal = 9;
-			
-			// aapt resource value: 8
-			public const int FloatingActionButton_fab_colorPressed = 8;
-			
-			// aapt resource value: 11
-			public const int FloatingActionButton_fab_colorRipple = 11;
-			
-			// aapt resource value: 12
-			public const int FloatingActionButton_fab_shadow = 12;
-			
-			// aapt resource value: 13
-			public const int FloatingActionButton_fab_size = 13;
 			
 			// aapt resource value: 5
 			public const int FloatingActionButton_pressedTranslationZ = 5;

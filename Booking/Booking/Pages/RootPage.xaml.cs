@@ -55,7 +55,8 @@ namespace Booking.Pages
         private void InitializeMasterDetail()
         {
             Master = new ProfilePage();
-            Detail = new NavigationPage(new MainPage());
+            Detail = new NavigationPage(new LoginPage());
+           // Detail = new NavigationPage(new MainPage());
 
             App.Current.Navigation = new NavigationService(Detail.Navigation);
         }

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	Title="Login"
+	x:Class="Booking.Pages.ThankYouPage"
+	xmlns:artina="clr-namespace:UXDivers.Artina.Shared;assembly=UXDivers.Artina.Shared"
+	BackgroundColor="{ StaticResource AccentColor }"
+	BackgroundImage="{ StaticResource SignUpBackgroundImage }"
+	 >
+
+	<ScrollView>
+		<!-- MAIN CONTAINER -->
+		<Grid
+			ColumnSpacing="0" 
+			RowSpacing="0" 
+			HorizontalOptions="Fill"
+			VerticalOptions="FillAndExpand" >
+
+			<Grid.RowDefinitions>
+				<RowDefinition Height="200" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="100" />
+			</Grid.RowDefinitions>
+
+			<!-- LOGO -->
+			<Image Source="icon.png"
+             Margin="0,50,0,0"
+				     Grid.Row="0"
+			/>
+
+			<!---FIELDS CONTAINER-->
+			<Grid 
+				Padding="40, 0"
+				ColumnSpacing="0" 
+				RowSpacing="0" 
+				VerticalOptions="CenterAndExpand"
+				Grid.Row="1"
+				HeightRequest="160">
+
+
+          <Label Text="Thank you for booking with us" TextColor="White" FontSize="30"/>
+         
+			
+			</Grid>
+
+			<!-- FOOTER -->
+			<StackLayout 
+				HorizontalOptions="Fill"
+				VerticalOptions="EndAndExpand" 
+				Padding="20"
+				Grid.Row="2" >
+
+				<artina:Button
+					Style="{DynamicResource PrimaryActionButtonStyle}"
+					VerticalOptions="End"
+          Clicked="LoginClicked"
+					Text="Back" />
+			</StackLayout>
+
+		</Grid>
+	</ScrollView>
+</ContentPage>

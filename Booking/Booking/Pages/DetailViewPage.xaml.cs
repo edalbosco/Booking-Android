@@ -7,15 +7,19 @@ namespace Booking.Pages
 {
 	public partial class DetailViewPage : ContentPage
 	{
-		public DetailViewPage() : this(new ShowViewModel())
+
+        DetailViewModel _viewModel;
+
+        public DetailViewPage() : this(new DetailViewModel())
 		{
 		}
 
-		public DetailViewPage(ShowViewModel viewModel)
+		public DetailViewPage(DetailViewModel viewModel)
 		{
 			InitializeComponent ();
 			BindingContext = viewModel;
-		}
+            _viewModel = viewModel;
+        }
 
 		protected override void OnAppearing (){
 			base.OnAppearing ();
@@ -30,7 +34,12 @@ namespace Booking.Pages
 			outerScrollView.Scrolled -= OnScroll;
 		}
 
-		public void OnScroll (object sender, ScrolledEventArgs e) {
+        public void SlideChanged(object sender, EventArgs e)
+        {
+            _viewModel.Seats = (int)Math.Truncate( SeatSlide.Value);
+        }
+
+        public void OnScroll (object sender, ScrolledEventArgs e) {
 			var imageHeight = img.Height * 2;
 			var scrollRegion = layeringGrid.Height - outerScrollView.Height;
 			var parallexRegion = imageHeight - outerScrollView.Height;
@@ -57,9 +66,13 @@ namespace Booking.Pages
 			this.Navigation.PopModalAsync ();
 		}
 
-		public void OnPrimaryActionButtonClicked (object sender, EventArgs e){
+        public void OnPrimaryActionButtonClicked(object sender, EventArgs e)
+        {
 
-		}
-	}
+            App.Current.Navigation.PopAsync();
+
+            App.Current.Navigation.PushModalAsync(new ThankYouPage());
+        }
+    }
 }
 
