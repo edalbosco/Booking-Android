@@ -24,7 +24,7 @@
 			</Grid.RowDefinitions>
 
 			<!-- LOGO -->
-			<Image Source="icon.png"
+			<Image Source="icon_bg.png"
              Margin="0,50,0,0"
 				     Grid.Row="0"
 			/>

@@ -6,7 +6,11 @@
              x:Class="Booking.Pages.MainPage"
             Title="Restaurant Booking">
 
-      <ListView
+  <ContentPage.ToolbarItems>
+    <ToolbarItem Name="Login" Command="{Binding LoginCommand}" Text="Login" Order="Primary" Icon="login.png" />
+  </ContentPage.ToolbarItems>
+
+  <ListView
 			x:Name="listViewMessages"
 			BackgroundColor="White"
 			RowHeight="100"

@@ -5,31 +5,30 @@ using Xamarin.Forms;
 
 namespace Booking.Pages
 {
-	public partial class LoginPage : ContentPage
-	{
+    public partial class LoginPage : ContentPage
+    {
 
         string _email;
 
-		public LoginPage ()
-		{
-			InitializeComponent ();
-			NavigationPage.SetHasNavigationBar(this, false);
+        public LoginPage()
+        {
+            InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
 
             BindingContext = this;
-		}
+        }
 
         async void LoginClicked(object sender, EventArgs args)
         {
-            await App.Current.Navigation.PopAsync();
+
+            App.Current.Authenticated = true;
 
             if (Email.ToLower() == "admin")
             {
                 await App.Current.Navigation.PushAsync(new AdminPage());
+                App.Current.Navigation.RemovePage(App.Current.Navigation.NavigationStack[0]);
             }
-            else
-            {
-                await App.Current.Navigation.PushAsync(new MainPage());
-            }
+            await App.Current.Navigation.PopModalAsync();
         }
 
         public string Email
@@ -44,5 +43,5 @@ namespace Booking.Pages
                 OnPropertyChanged();
             }
         }
-	}
+    }
 }

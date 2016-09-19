@@ -16,12 +16,22 @@ namespace Booking.Pages
         ObservableCollection<ImageSource> _images;
         int idx;
 
+        private Command loginCommand;
+
+
         public MainPage()
         {
             InitializeComponent();
 
+            LoginCommand = new Command(Login);
+
             idx = 2;
             BindingContext = this;
+        }
+
+        private void Login(object obj)
+        {
+            App.Current.Navigation.PushModalAsync(new LoginPage());
         }
 
         public List<Restaurant> Booking
@@ -54,6 +64,19 @@ namespace Booking.Pages
             set
             {
                 _images = value; OnPropertyChanged();
+            }
+        }
+
+        public Command LoginCommand
+        {
+            get
+            {
+                return loginCommand;
+            }
+
+            set
+            {
+                loginCommand = value;
             }
         }
 

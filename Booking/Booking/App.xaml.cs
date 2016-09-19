@@ -14,6 +14,8 @@ namespace Booking
 
         public static new App Current { get; private set; }
 
+        public bool Authenticated { get; set; }
+
         public App()
         {
             InitializeComponent();
