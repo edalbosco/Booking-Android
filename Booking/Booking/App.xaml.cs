@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Booking.Helpers;
 using Xamarin.Forms;
+using System.ComponentModel;
 
 namespace Booking
 {
@@ -14,7 +15,20 @@ namespace Booking
 
         public static new App Current { get; private set; }
 
-        public bool Authenticated { get; set; }
+        public bool Authenticated
+        {
+            get
+            {
+                return authenticated;
+            }
+
+            set
+            {
+                authenticated = value; OnPropertyChanged();
+            }
+        }
+
+        private bool authenticated;
 
         public App()
         {

@@ -25,9 +25,11 @@ namespace Booking.Pages
 
             if (Email.ToLower() == "admin")
             {
+                await App.Current.Navigation.PopToRootAsync();
                 await App.Current.Navigation.PushAsync(new AdminPage());
                 App.Current.Navigation.RemovePage(App.Current.Navigation.NavigationStack[0]);
             }
+
             await App.Current.Navigation.PopModalAsync();
         }
 

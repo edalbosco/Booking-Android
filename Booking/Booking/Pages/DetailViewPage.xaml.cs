@@ -10,6 +10,7 @@ namespace Booking.Pages
 
         DetailViewModel _viewModel;
 
+
         public DetailViewPage() : this(new DetailViewModel())
 		{
 		}
@@ -20,11 +21,10 @@ namespace Booking.Pages
 			BindingContext = viewModel;
             _viewModel = viewModel;
         }
-
-		protected override void OnAppearing (){
+      
+        protected override void OnAppearing (){
 			base.OnAppearing ();
 
-   //         wvArticle.Source = new HtmlWebViewSource() { Html = (BindingContext as ShowViewModel).Post.Body };
 			outerScrollView.Scrolled += OnScroll;
 		}
 
@@ -68,10 +68,16 @@ namespace Booking.Pages
 
         public void OnPrimaryActionButtonClicked(object sender, EventArgs e)
         {
+            if (!App.Current.Authenticated)
+            {
+                DisplayAlert("Not logged in", "You must log in to place a reservation. Please touch the button on the top of the screen.","OK");
+            }
+            else
+            {
+                App.Current.Navigation.PopAsync();
 
-            App.Current.Navigation.PopAsync();
-
-            App.Current.Navigation.PushModalAsync(new ThankYouPage());
+                App.Current.Navigation.PushModalAsync(new ThankYouPage());
+            }
         }
     }
 }

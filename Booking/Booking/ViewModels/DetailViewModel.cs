@@ -6,20 +6,25 @@ using Booking.Models;
 using Xamarin.Forms;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using Booking.Pages;
 
 namespace Booking.ViewModels
 {
 	public class DetailViewModel: INotifyPropertyChanged
 	{
-		public DetailViewModel() : this(new Restaurant("","","","","",false)) {
+        private Command loginCommand;
+
+        public DetailViewModel() : this(new Restaurant("","","","","",false)) {
             Seats = 1;
 		}
 
 		public DetailViewModel(Restaurant post){
 			this.Restaurant = post;
+            LoginCommand = new Command(Login);
+
         }
 
-		public Restaurant Restaurant { get; private set;}
+        public Restaurant Restaurant { get; private set;}
 
 		public List<Message> Comments {
 			get{ 
@@ -28,6 +33,24 @@ namespace Booking.ViewModels
 		}
 
         int _seats;
+
+        private void Login(object obj)
+        {
+            App.Current.Navigation.PushModalAsync(new LoginPage());
+        }
+
+        public Command LoginCommand
+        {
+            get
+            {
+                return loginCommand;
+            }
+
+            set
+            {
+                loginCommand = value;
+            }
+        }
 
         public event PropertyChangedEventHandler PropertyChanged;
 
