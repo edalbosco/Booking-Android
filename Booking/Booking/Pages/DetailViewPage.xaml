@@ -7,10 +7,6 @@
 	xmlns:templates="clr-namespace:Booking.Templates"
 	Title="Booking">
 
-  <ContentPage.ToolbarItems>
-    <ToolbarItem Name="Login" Command="{Binding LoginCommand}" Text="Login" Order="Primary" Icon="login.png" />
-  </ContentPage.ToolbarItems>
-
   <ScrollView x:Name="outerScrollView" BackgroundColor="White">
 
     <Grid x:Name="layeringGrid" RowSpacing="0" VerticalOptions="FillAndExpand">

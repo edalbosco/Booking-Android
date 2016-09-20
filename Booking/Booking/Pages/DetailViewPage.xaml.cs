@@ -68,16 +68,9 @@ namespace Booking.Pages
 
         public void OnPrimaryActionButtonClicked(object sender, EventArgs e)
         {
-            if (!App.Current.Authenticated)
-            {
-                DisplayAlert("Not logged in", "You must log in to place a reservation. Please touch the button on the top of the screen.","OK");
-            }
-            else
-            {
                 App.Current.Navigation.PopAsync();
 
                 App.Current.Navigation.PushModalAsync(new ThankYouPage());
-            }
         }
     }
 }
